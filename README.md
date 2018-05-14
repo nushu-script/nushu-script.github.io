@@ -1,13 +1,15 @@
-# 欢迎来到 Unicode 女书词典！
+# nushu-dictionary
 
-![](0012.gif)
+<p><b><big>Welcome to Unicode Nushu dictionary!</big></b></p>
 
-_这里收录了 Unicode 中的 396 个女书字符_
+<p><b><big>欢迎来到 Unicode 女书词典！</big></b></p>
 
-1. Unicode 女书转换器：[进入](converter.htm)
-1. Unicode 女书输入法：[进入](https://github.com/chromezh/unicode_nushu)
-1. Unicode 女书一览表：[进入](list.htm)
+**_396 Nushu characters in Unicode are included here_ / 这里收录了 Unicode 中的 396 个女书字符**
 
-![](v4_anim022.gif)
+* Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](converter.htm)
+* Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](https://github.com/chromezh/unicode_nushu)
+* Unicode Nushu List / Unicode 女书一览表：[Enter / 进入](list.htm)
 
-2018 年 5 月 13 日更新
+![](gif/ico.gif) ![](gif/0012.gif) ![](gif/v4_anim022.gif)
+
+Last Updated / 最近更新：20180513
