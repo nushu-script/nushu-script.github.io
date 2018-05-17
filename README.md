@@ -6,9 +6,9 @@
 
 **_396 Nushu characters in Unicode are included here_ / 这里收录了 Unicode 中的 396 个女书字符**
 
-* Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](converter.htm)
-* Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](https://github.com/chromezh/unicode_nushu)
-* Unicode Nushu List / Unicode 女书一览表：[Enter / 进入](list.htm)
+* Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](https://chromezh.github.io/nushu-dictionary/converter.htm)
+* Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](https://chromezh.github.io/unicode_nushu/)
+* Unicode Nushu List / Unicode 女书一览表：[Enter / 进入](https://chromezh.github.io/nushu-dictionary/list.htm)
 
 ![](gif/ico.gif) ![](gif/0012.gif) ![](gif/v4_anim022.gif)
 
@@ -20,4 +20,6 @@
 
 《ISO/UCS 女书编码提案》以及《女书字表》、《女书字库》、《女书用字比较》等文件由清华大学抢救女书 SRT 小组同学制作，而他们亦是向相关机构提交编码提案的代表。
 
-Last Updated / 最近更新：20180515
+---
+
+Last Updated / 最近更新：20180517
