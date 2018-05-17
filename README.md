@@ -20,6 +20,14 @@
 
 《ISO/UCS 女书编码提案》以及《女书字表》、《女书字库》、《女书用字比较》等文件由清华大学抢救女书 SRT 小组同学制作，而他们亦是向相关机构提交编码提案的代表。
 
+## Maintenance / 维护
+
+欢迎您为Unicode 女书词典的完善贡献力量。
+
+点击页面上方的 `View on GitHub`，编辑其中的 `src/data.xlsx` 文件，向文件中添加或修改汉字-女书对应关系。
+
+在编辑时，一定要选用能显示女书的字体（如 [TH-Tshyn-P1](http://cheonhyeong.com/Simplified/download.html)），才能看见女书字符～
+
 ---
 
 Last Updated / 最近更新：20180517
