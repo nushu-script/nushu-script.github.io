@@ -1,19 +1,22 @@
 use strict;
+use warnings;
 
-print '<!doctype html>
+print << 'EOF';
+<!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Unicode 女书一览表</title>
-  <style type="text/css">
-    table{
-     border-collapse: collapse;
-     text-align:center;
-    }th,td{
-     border:1px solid;
-     max-width:250px;
-    }
-  </style>
+ <meta charset="utf-8">
+ <title>Unicode 女书一览表</title>
+ <style type="text/css">
+  table{
+   border-collapse: collapse;
+   text-align:center;
+  }
+  th,td{
+   border:1px solid;
+   max-width:250px;
+  }
+ </style>
 </head>
 <body id="container" class="export export-html" background=../gif/v2_bcg014.gif>
 
@@ -33,14 +36,13 @@ print '<!doctype html>
 </tr>
 </thead>
 <tbody>
-'
-;
+EOF
 
 my $line = <STDIN>;
 while(my $line = <STDIN>)
 {
     print $line =~ s/^(.*?)\t(.*?)\t(.*?)\t(.*?)\t(.*?)\t(.*?)$/<tr>
-<td><img width=20 alt=\"$1\" src=\"$5.jpg\"><\/td>
+<td><img width=20 alt=\"$1\" src=\"glyph\/$5.jpg\"><\/td>
 <td style=\"font-family:TH-Tshyn-P1;font-size:200%;\">$1<\/td>
 <td>$2<\/td>
 <td>$3<\/td>
@@ -49,9 +51,9 @@ while(my $line = <STDIN>)
 <\/tr>/r;
 }
 
-print '</tbody>
+print << 'EOF';
+</tbody>
 </table>
 </body>
 </html>
-'
-;
+EOF
