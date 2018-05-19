@@ -62,7 +62,7 @@ private:
 int main()
 {
     freopen("../../data.txt", "r", stdin);
-    freopen("../../util/converter1_x.js", "w", stdout);
+    freopen("../../util/converter1.js", "w", stdout);
 
     QTextStream qin(stdin, QIODevice::ReadOnly);
     QTextStream qout(stdout, QIODevice::WriteOnly);
@@ -73,7 +73,7 @@ int main()
 
     RecordList1 rlist;
 
-    qin.readLine();  // Skip header
+    qin.readLine();  // Skip heading
 
     for(;;)
     {

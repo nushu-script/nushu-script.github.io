@@ -42,7 +42,7 @@ my $line = <STDIN>;
 while(my $line = <STDIN>)
 {
     print $line =~ s/^(.*?)\t(.*?)\t(.*?)\t(.*?)\t(.*?)\t(.*?)$/<tr>
-<td><img width=20 alt=\"$1\" src=\"glyph\/$5.jpg\"><\/td>
+<td><img width=20 alt=\"$1\" src=\"..\/glyph\/$5.jpg\"><\/td>
 <td style=\"font-family:TH-Tshyn-P1;font-size:200%;\">$1<\/td>
 <td>$2<\/td>
 <td>$3<\/td>
