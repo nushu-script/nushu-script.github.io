@@ -21,7 +21,7 @@ print << 'EOF';
 <body id="container" class="export export-html" background='pic/v2_bcg014.gif'>
 
 <h1>Unicode Nushu List / Unicode 女书一览表</h1>
-<p>Version / 版本：20180513</p>
+<p>Version / 版本：20180526</p>
 <p>If you cannot see the Nushu charcater, please download the font TH-Tshyn-P1 in <a href="http://cheonhyeong.com/English/download.html">TH-Fonts</a>. / 如果您看不到女书字符，请安装<a href="http://cheonhyeong.com/Simplified/download.html">天珩全字库</a>中的 TH-Tshyn-P1 字体。</p>
 
 <table>

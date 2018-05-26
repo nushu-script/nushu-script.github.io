@@ -1,10 +1,8 @@
-# nushu-dictionary
+# nushu-dictionary [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 <p><b><big>Welcome to Unicode Nushu dictionary! / 欢迎来到 Unicode 女书词典！</big></b></p>
 
 **_396 Nushu characters in Unicode are included here_ / 这里收录了 Unicode 中的 396 个女书字符**
-
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 * Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](converter.htm)
 * Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](/unicode_nushu/)
@@ -22,6 +20,7 @@ Latest Version / 最新版本：20180526
 
  
 > ![女书](pic/calligraphy.png) 
+> 
 > **女书**（图片来源：http://photo.blog.sina.com.cn/photo/1368797710/5196320ege1f91cd284d1） 
 
 女书的字型虽然参考汉字，但二者并没有必然的关系。与汉字不同，女书是一种表音文字。同时，女书不仅可以用作日常书写，还可以作为花纹编在衣服或布带上，因此女书的字形也或多或少有所迁就，成为弯曲的形状。
@@ -29,6 +28,7 @@ Latest Version / 最新版本：20180526
 关于女书文字的记载，至今最早能见到的是太平天国（清朝咸丰年间）发行的雕母钱。该钱背面用女书字符铸印有「天下妇女」、「姊妹一家」字样。
 
 > ![刻有女书的雕母钱](pic/coin.png)
+> 
 > **刻有女书的雕母钱**（图片来源：http://blog.sina.com.cn/s/blog_ad72d50a0102x0ec.html）
 
 1982 年，武汉大学宫哲兵教授在湖南省江永县发现了女书。发现女书的消息公布后，引起全世界轰动。海内外专家学者纷纷深入江永考察、学习、发掘。近年来，永州市积极实施抢救和保护女书文化工程，通过兴建女书文化村，建立女书博物馆，组织开发女书工艺品，发展女书文化产业，使女书文化薪火相传，发扬光大。《ISO/UCS 女书编码提案》以及《女书字表》、《女书字库》、《女书用字比较》等文件由清华大学抢救女书 SRT 小组同学制作，而他们亦是向相关机构提交编码提案的代表。
