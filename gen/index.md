@@ -1,0 +1,42 @@
+# nushu-dictionary
+
+<p><b><big>Welcome to Unicode Nushu dictionary! / 欢迎来到 Unicode 女书词典！</big></b></p>
+
+**_396 Nushu characters in Unicode are included here_ / 这里收录了 Unicode 中的 396 个女书字符**
+
+* Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](converter.htm)
+* Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](/unicode_nushu/)
+* Unicode Nushu List / Unicode 女书一览表：[Enter / 进入](list.htm)
+
+![](pic/ico.gif) ![](pic/0012.gif) ![](pic/v4_anim022.gif)
+
+## Introduction / 介绍
+
+女书，世界上发现的唯一一种女性文字，起源于南部湖南省的江永县，故又名江永女书。是一种曾在湖南省江永县及其毗邻的道县、江华瑶族自治县的大瑶山和广西部分地区的妇女之间流行、传承的神秘文字。
+
+女书是世界上独一无二的一种独特的女性文字符号体系。它靠母传女、老传少，在湖南省江永县及其近邻一带瑶族和汉族妇女中一代代流传下来。女书是人类历史上一个独特而神奇的文化现象。
+
+女书文字的特点是书写呈长菱形，字体秀丽娟细，造型奇特。目前搜集到的女书字符近两千个，所有字符只有点、竖、斜、弧四种笔划，采用当地方言土语吟诵或咏唱。
+
+女书的字型虽然参考汉字，但二者并没有必然的关系。与汉字不同，女书是一种表音文字。同时，女书不仅可以用作日常书写，还可以作为花纹编在衣服或布带上，因此女书的字形也或多或少有所迁就，成为弯曲的形状。
+
+关于女书文字的记载，至今最早能见到的是太平天国（清朝咸丰年间）发行的雕母钱。该钱背面用女书字符铸印有「天下妇女」、「姊妹一家」字样。
+
+> ![刻有女书的雕母钱](pic/coin.png)
+> **刻有女书的雕母钱**（图片来源：http://blog.sina.com.cn/s/blog_ad72d50a0102x0ec.html）
+
+女书于 1982 年由武汉大学宫哲兵教授在江永县发现。
+
+《ISO/UCS 女书编码提案》以及《女书字表》、《女书字库》、《女书用字比较》等文件由清华大学抢救女书 SRT 小组同学制作，而他们亦是向相关机构提交编码提案的代表。
+
+## Maintenance / 维护
+
+欢迎您为Unicode 女书词典的完善贡献力量。
+
+编辑 `data.txt` 文件，向文件中添加或修改汉字-女书对应关系。
+
+在编辑时，一定要选用能显示女书的字体（如 [TH-Tshyn-P1](http://cheonhyeong.com/Simplified/download.html)），才能看见女书字符～
+
+---
+
+Last Updated / 最近更新：20180526

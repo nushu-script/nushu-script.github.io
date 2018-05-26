@@ -62,7 +62,7 @@ private:
 int main()
 {
     freopen("../../data.txt", "r", stdin);
-    freopen("../../util/converter1.js", "w", stdout);
+    freopen("../../docs/converter1.js", "w", stdout);
 
     QTextStream qin(stdin, QIODevice::ReadOnly);
     QTextStream qout(stdout, QIODevice::WriteOnly);
