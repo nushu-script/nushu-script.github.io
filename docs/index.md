@@ -4,11 +4,13 @@
 
 **_396 Nushu characters in Unicode are included here_ / 这里收录了 Unicode 中的 396 个女书字符**
 
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
 * Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](converter.htm)
 * Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](/unicode_nushu/)
 * Unicode Nushu List / Unicode 女书一览表：[Enter / 进入](list.htm)
 
-![](pic/ico.gif) ![](pic/0012.gif) ![](pic/v4_anim022.gif)
+Latest Version / 最新版本：20180526
 
 ## Introduction / 介绍
 
@@ -41,6 +43,4 @@
 
 在编辑时，一定要选用能显示女书的字体（如 [TH-Tshyn-P1](http://cheonhyeong.com/Simplified/download.html)），才能看见女书字符～
 
----
-
-Last Updated / 最近更新：20180526
+![](pic/ico.gif) ![](pic/0012.gif) ![](pic/v4_anim022.gif)
