@@ -1,7 +1,7 @@
 default : gen/list.pl data.txt
 	perl gen/list.pl < data.txt > docs/list.htm
-	perl gen/converter0.pl < data.txt | uglifyjs -o docs/converter0.js
-	perl gen/converter1.pl < data.txt | uglifyjs -o docs/converter1.js
+	perl gen/converter0.pl < data.txt > docs/converter0.js
+	perl gen/converter1.pl < data.txt > docs/converter1.js
 	cp gen/converter.htm docs/converter.htm
 	cp README.md docs/index.md
 	uglifyjs gen/converter.js -o docs/converter.js
