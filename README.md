@@ -4,9 +4,9 @@
 
 **_396 Nushu characters in Unicode are included here_ / 这里收录了 Unicode 中的 396 个女书字符**
 
-* Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](converter.htm)
-* Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](/unicode_nushu/)
-* Unicode Nushu List / Unicode 女书一览表：[Enter / 进入](list.htm)
+* Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](https://chromezh.github.io/nushu-dictionary/converter.htm)
+* Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](https://chromezh.github.io/unicode_nushu/)
+* Unicode Nushu List / Unicode 女书一览表：[Enter / 进入](https://chromezh.github.io/nushu-dictionary/list.htm)
 
 Latest Version / 最新版本：20180526
 
@@ -19,7 +19,7 @@ Latest Version / 最新版本：20180526
 女书文字的特点是书写呈长菱形，字体秀丽娟细，造型奇特。目前搜集到的女书字符近两千个，所有字符只有点、竖、斜、弧四种笔划，采用当地方言土语吟诵或咏唱。
 
  
-> ![女书](pic/calligraphy.png) 
+> ![女书](https://chromezh.github.io/nushu-dictionary/pic/calligraphy.png) 
 > 
 > **女书**（图片来源：http://photo.blog.sina.com.cn/photo/1368797710/5196320ege1f91cd284d1） 
 
@@ -27,7 +27,7 @@ Latest Version / 最新版本：20180526
 
 关于女书文字的记载，至今最早能见到的是太平天国（清朝咸丰年间）发行的雕母钱。该钱背面用女书字符铸印有「天下妇女」、「姊妹一家」字样。
 
-> ![刻有女书的雕母钱](pic/coin.png)
+> ![刻有女书的雕母钱](https://chromezh.github.io/nushu-dictionary/pic/coin.png)
 > 
 > **刻有女书的雕母钱**（图片来源：http://blog.sina.com.cn/s/blog_ad72d50a0102x0ec.html）
 
@@ -43,4 +43,4 @@ Latest Version / 最新版本：20180526
 
 在编辑时，一定要选用能显示女书的字体（如 [TH-Tshyn-P1](http://cheonhyeong.com/Simplified/download.html)），才能看见女书字符～
 
-![](pic/ico.gif) ![](pic/0012.gif) ![](pic/v4_anim022.gif)
+![](https://chromezh.github.io/nushu-dictionary/pic/ico.gif) ![](https://chromezh.github.io/nushu-dictionary/pic/0012.gif) ![](https://chromezh.github.io/nushu-dictionary/pic/v4_anim022.gif)
