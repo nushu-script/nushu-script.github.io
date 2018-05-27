@@ -1,6 +1,5 @@
 use strict;
 use warnings;
-use utf8;
 use Encoding;
 use 5.010;
 binmode STDOUT, ':utf8';
@@ -12,23 +11,23 @@ my $nushu;
 
 sub insert
 {
-    if(!$nushu)
+    if($nushu)
     {
-        return;
-    }
-    for(my $i = 0; $i <= $#arr_chars; $i++)
-    {
-        if($arr_chars[$i] eq $&)
+        for(0 .. $#arr_chars)
         {
-            $arr_nushu[$i] = $arr_nushu[$i] . $nushu;
-            return;
+            if($arr_chars[$_] eq $&)
+            {
+                $arr_nushu[$_] .= $nushu;
+                return;
+            }
         }
+        push @arr_chars, $&;
+        push @arr_nushu, $nushu;
     }
-    push(@arr_chars, $&);
-    push(@arr_nushu, $nushu);
 }
 
-<STDIN>;
+<STDIN>;  # Skip heading
+
 while(<STDIN>)
 {
     /^(.*?)\t(.*?)\t.*?\t.*?\t.*?\t.*?$/;
@@ -50,11 +49,11 @@ var mappingnushuchar=
 {
 EOF
 
-print '"', $arr_chars[0], '":"', $arr_nushu[0], '"';
+print '"', shift @arr_chars, '":"', shift @arr_nushu, '"';
 
-for(my $i = 1; $i <= $#arr_chars; $i++)
+while(@arr_chars)
 {
-    print ",\n\"", $arr_chars[$i], '":"', $arr_nushu[$i], '"';
+    print ",\n\"", shift @arr_chars, '":"', shift @arr_nushu, '"';
 }
 
 print << 'EOF';
