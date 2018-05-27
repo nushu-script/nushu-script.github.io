@@ -37,10 +37,10 @@ Latest Version / 最新版本：20180526
 
 ## Maintenance / 维护
 
-欢迎您为Unicode 女书词典的完善贡献力量。
+欢迎您为 Unicode 女书词典的完善贡献力量。
 
-编辑 `data.txt` 文件，向文件中添加或修改汉字-女书对应关系。
+进入[项目主页](https://github.com/chromezh/nushu-dictionary)，编辑 `data.txt` 文件，向文件中添加或修改汉字-女书对应关系。
 
-在编辑时，一定要选用能显示女书的字体（如 [TH-Tshyn-P1](http://cheonhyeong.com/Simplified/download.html)），才能看见女书字符～
+在编辑时，一定要选用能显示女书的字体（如 [TH-Tshyn-P1 字体](http://cheonhyeong.com/Simplified/download.html)），才能看见女书字符～
 
 ![](https://chromezh.github.io/nushu-dictionary/pic/ico.gif) ![](https://chromezh.github.io/nushu-dictionary/pic/0012.gif) ![](https://chromezh.github.io/nushu-dictionary/pic/v4_anim022.gif)
