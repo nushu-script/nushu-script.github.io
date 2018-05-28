@@ -8,7 +8,7 @@
 * Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](https://chromezh.github.io/unicode_nushu/)
 * Unicode Nushu List / Unicode 女书一览表：[Enter / 进入](https://chromezh.github.io/nushu-dictionary/list.htm)
 
-Latest Version / 最新版本：20180526
+Latest Version / 最新版本：20180528
 
 ## Introduction / 介绍
 
