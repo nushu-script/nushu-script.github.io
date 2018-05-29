@@ -1,8 +1,6 @@
 # nushu-dictionary [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-<p><b><big>Welcome to Unicode Nushu dictionary! / 欢迎来到 Unicode 女书词典！</big></b></p>
-
-**_396 Nushu characters in Unicode are included here_ / 这里收录了 Unicode 中的 396 个女书字符**
+Welcome to Nushu dictionary! / 欢迎来到女书词典！
 
 * Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](https://chromezh.github.io/nushu-dictionary/converter.htm)
 * Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](https://chromezh.github.io/unicode_nushu/)
@@ -38,7 +36,9 @@ Latest Version / 最新版本：20180528
 
 ## Maintenance / 维护
 
-欢迎您为 Unicode 女书词典的完善贡献力量。
+欢迎您为女书词典的完善贡献力量。
+
+目前女书词典收录 Unicode 中的 396 个女书字符。
 
 进入[项目主页](https://github.com/chromezh/nushu-dictionary)，编辑 `data.txt` 文件，向文件中添加或修改汉字-女书对应关系。
 
