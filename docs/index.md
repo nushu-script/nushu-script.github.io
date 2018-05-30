@@ -2,11 +2,21 @@
 
 Welcome to Nushu dictionary! / 欢迎来到女书词典！
 
-* Unicode Nushu Converter / Unicode 女书转换器：[Enter / 进入](https://chromezh.github.io/nushu-dictionary/converter.htm)
-* Unicode Nushu Input Method / Unicode 女书输入法：[Enter / 进入](https://chromezh.github.io/unicode_nushu/)
-* Unicode Nushu List / Unicode 女书一览表：[Enter / 进入](https://chromezh.github.io/nushu-dictionary/list.htm)
-
 Latest Version / 最新版本：20180528
+
+## Tools / 工具
+
+1. **[Unicode Nushu Converter / Unicode 女书转换器](https://chromezh.github.io/nushu-dictionary/converter.htm)**
+
+  Unicode 女书转换器目前支持将 1700 余个汉字转换为对应的女书字。
+
+1. **[Unicode Nushu Input Method / Unicode 女书输入法](https://chromezh.github.io/unicode_nushu/)**
+
+  Unicode 女书输入法支持使用汉语拼音（普通话）和女书拼音（江永方言）两种方式输入女书，同时具有汉字提示功能。
+
+1. **[Unicode Nushu List / Unicode 女书一览表](https://chromezh.github.io/nushu-dictionary/list.htm)**
+
+  Unicode 女书一览表列出了 Unicode 中的全部 396 个女书字符与汉字的对应关系。
 
 ## Introduction / 介绍
 
@@ -28,11 +38,11 @@ Latest Version / 最新版本：20180528
 
 ![女书作品](https://chromezh.github.io/nushu-dictionary/pic/calligraphy.jpg) 
 
-**女书作品**（[来源](http://photo.blog.sina.com.cn/photo/1368797710/5196320ege1f91cd284d1)） 
+**女书作品**【[来源](http://photo.blog.sina.com.cn/photo/1368797710/5196320ege1f91cd284d1)】
 
 ![刻有女书的雕母钱](https://chromezh.github.io/nushu-dictionary/pic/coin.jpg)
 
-**刻有女书的雕母钱**（[来源](http://blog.sina.com.cn/s/blog_ad72d50a0102x0ec.html)）
+**刻有女书的雕母钱**【[来源](http://blog.sina.com.cn/s/blog_ad72d50a0102x0ec.html)】
 
 ## Maintenance / 维护
 
@@ -42,6 +52,19 @@ Latest Version / 最新版本：20180528
 
 进入[项目主页](https://github.com/chromezh/nushu-dictionary)，编辑 `data.txt` 文件，向文件中添加或修改汉字-女书对应关系。
 
-在编辑时，一定要选用能显示女书的字体（如 [TH-Tshyn-P1 字体](http://cheonhyeong.com/Simplified/download.html)），才能看见女书字符～
+在编辑时，一定要选用能显示女书的字体（如 [TH-Tshyn-P1 字体](http://cheonhyeong.com/Simplified/download.html)），才能显示出女书字符。
+
+**项目计划**
+
+- [ ] 词库与功能
+    - [x] 女书输入法的汉语拼音输入功能
+    - [x] 女书输入法的汉字提示功能
+    - [x] 词库自动生成网页
+    - [ ] 词库内容校对
+    - [ ] 女书转换器转换结果按使用频率排序
+    - [ ] 补充更多女书资料
+- [ ] 网页展示
+    - [ ] 中英双语支持
+    - [ ] 针对手机浏览器的页面优化
 
 ![](https://chromezh.github.io/nushu-dictionary/pic/ico.gif) ![](https://chromezh.github.io/nushu-dictionary/pic/0012.gif) ![](https://chromezh.github.io/nushu-dictionary/pic/v4_anim022.gif)
