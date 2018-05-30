@@ -6,17 +6,17 @@ Latest Version / 最新版本：20180528
 
 ## Tools / 工具
 
-1. **[Unicode Nushu Converter / Unicode 女书转换器](https://chromezh.github.io/nushu-dictionary/converter.htm)**
+**[Unicode Nushu Converter / Unicode 女书转换器](https://chromezh.github.io/nushu-dictionary/converter.htm)**
 
-    Unicode 女书转换器目前支持将 1700 余个汉字转换为对应的女书字。
+Unicode 女书转换器目前支持将 1700 余个汉字转换为对应的女书字。
 
-1. **[Unicode Nushu Input Method / Unicode 女书输入法](https://chromezh.github.io/unicode_nushu/)**
+**[Unicode Nushu Input Method / Unicode 女书输入法](https://chromezh.github.io/unicode_nushu/)**
 
-    Unicode 女书输入法支持使用汉语拼音（普通话）和女书拼音（江永方言）两种方式输入女书，同时具有汉字提示功能。
+Unicode 女书输入法支持使用汉语拼音（普通话）和女书拼音（江永方言）两种方式输入女书，同时具有汉字提示功能。
 
-1. **[Unicode Nushu List / Unicode 女书一览表](https://chromezh.github.io/nushu-dictionary/list.htm)**
+**[Unicode Nushu List / Unicode 女书一览表](https://chromezh.github.io/nushu-dictionary/list.htm)**
 
-    Unicode 女书一览表列出了 Unicode 中的全部 396 个女书字符与汉字的对应关系。
+Unicode 女书一览表列出了 Unicode 中的全部 396 个女书字符与汉字的对应关系。
 
 ## Introduction / 介绍
 
