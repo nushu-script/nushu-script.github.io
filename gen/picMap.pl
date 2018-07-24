@@ -5,24 +5,24 @@ use 5.010;
 binmode STDOUT, ':utf8';
 
 my @arr_chars;
-my @arr_nushu;
+my @arr_hashval;
 my $chars;
-my $nushu;
+my $hashval;
 
 sub insert
 {
-    if($nushu)
+    if($hashval)
     {
         for(0 .. $#arr_chars)
         {
             if($arr_chars[$_] eq $&)
             {
-                $arr_nushu[$_] .= $nushu;
+                $arr_hashval[$_] .= '|' . $hashval;
                 return;
             }
         }
         push @arr_chars, $&;
-        push @arr_nushu, $nushu;
+        push @arr_hashval, $hashval;
     }
 }
 
@@ -30,11 +30,10 @@ sub insert
 
 while(<STDIN>)
 {
-    /^(.*?)\t(.*?)\t.*?\t.*?\t.*?\t.*?$/;
-    $nushu = $1;
-    $chars = $2;
+    /^.*?\t(.*?)\t.*?\t.*?\t(.*?)\t.*?$/;
+    $chars = $1;
+    $hashval = $2;
 
-    Encode::_utf8_on($nushu);
     Encode::_utf8_on($chars);
 
     while($chars =~ /./)
@@ -45,15 +44,15 @@ while(<STDIN>)
 }
 
 print << 'EOF';
-var mappingnushuchar=
+var picMap=
 {
 EOF
 
-print '"', shift @arr_chars, '":"', shift @arr_nushu, '"';
+print '"', shift @arr_chars, '":"', shift @arr_hashval, '"';
 
 while(@arr_chars)
 {
-    print ",\n\"", shift @arr_chars, '":"', shift @arr_nushu, '"';
+    print ",\n\"", shift @arr_chars, '":"', shift @arr_hashval, '"';
 }
 
 print << 'EOF';

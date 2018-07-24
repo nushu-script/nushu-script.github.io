@@ -1,4 +1,4 @@
-var mappingnushu=
+var picMap=
 {
 "两":"1|23",
 "日":"1|88",
