@@ -46,25 +46,6 @@ Unicode 中的全部 396 个女书字符与汉字的对应关系。
 
 ## Maintenance / 维护
 
-欢迎您为女书词典的完善贡献力量。
-
 目前女书词典收录 Unicode 中的 396 个女书字符。
 
-进入[项目主页](https://github.com/chromezh/nushu-dictionary)，编辑 `data.txt` 文件，向文件中添加或修改汉字-女书对应关系。
-
-在编辑时，一定要选用能显示女书的字体（如 [TH-Tshyn-P1 字体](http://cheonhyeong.com/Simplified/download.html)），才能显示出女书字符。
-
-**项目计划**
-
-- [ ] 词库与功能
-    - [x] 女书输入法的汉语拼音输入功能
-    - [x] 女书输入法的汉字提示功能
-    - [x] 词库自动生成网页
-    - [ ] 词库内容校对
-    - [ ] 女书转换器转换结果按使用频率排序
-    - [ ] 补充更多女书资料
-- [ ] 网页展示
-    - [ ] 中英双语支持
-    - [ ] 针对手机浏览器的页面优化
-
-![](https://chromezh.github.io/nushu-dictionary/pic/ico.gif) ![](https://chromezh.github.io/nushu-dictionary/pic/0012.gif) ![](https://chromezh.github.io/nushu-dictionary/pic/v4_anim022.gif)
+进入[项目主页](https://github.com/chromezh/nushu-dictionary)，编辑 `data.txt` 文件，可以向文件中添加或修改汉字-女书对应关系。

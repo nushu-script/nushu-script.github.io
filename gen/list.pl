@@ -18,7 +18,7 @@ print << 'EOF';
   }
  </style>
 </head>
-<body id="container" class="export export-html" background='pic/v2_bcg014.gif'>
+<body id="container" class="export export-html">
 
 <h1>Unicode Nushu List / Unicode 女书一览表</h1>
 <p>Version / 版本：20180528</p>
