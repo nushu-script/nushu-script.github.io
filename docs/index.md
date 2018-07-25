@@ -6,7 +6,7 @@ Latest Version / 最新版本：20180528
 
 ## Tools / 工具
 
-**[Unicode Nushu Converter / Unicode 女书转换器](https://chromezh.github.io/nushu-dictionary/converter/converter_zh.htm)**
+**[Unicode Nushu Converter / Unicode 女书转换器](https://chromezh.github.io/nushu-dictionary/converter_zh.htm)**
 
 目前支持将 1700 余个汉字转换为对应的女书字。
 

@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cmn-Hans">
 <head>
   <meta charset="UTF-8" />
-  <title>Unicode 女书转换器（图片版）</title>
-  <script src="../picMap.js"></script>
-  <script src="converter_pic.js"></script>
+  <title>Unicode 女书转换器</title>
+  <script src="../charMap.js"></script>
+  <script src="converter.js"></script>
   <link rel="stylesheet" href="converter.css" type="text/css" />
 </head>
 <body>
-  <h1>Unicode 女书转换器（图片版）</h1>
+  <h1>Unicode 女书转换器</h1>
   <p>
     <a href="https://chromezh.github.io/nushu-dictionary/">前往女书词典首页</a>
-     - <a href="https://chromezh.github.io/nushu-dictionary/converter/converter_zh.htm">文字版</a>
-     - <a href="https://chromezh.github.io/nushu-dictionary/converter/converter_pic.htm">English</a>
+     - <a href="https://chromezh.github.io/nushu-dictionary/converter_pic_zh.htm">图片版</a>
+     - <a href="https://chromezh.github.io/nushu-dictionary/converter.htm">English</a>
   </p>
   <div class="hints">
     <p>同一个汉字可能对应多个女书字</p>
+    <p>如果您看不到女书字符，请安装<a href="http://cheonhyeong.com/Simplified/download.html">天珩全字库</a>中的 TH-Tshyn-P1 字体，或尝试<a href="https://chromezh.github.io/nushu-dictionary/converter_pic_zh.htm">图片版</a></p>
   </div>
   <textarea class="nushu" id="textBox" rows="8"></textarea>
   <p><button onclick="convert()">转换</button></p>
