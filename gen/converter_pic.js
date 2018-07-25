@@ -9,7 +9,7 @@ function HTMLEncode(input) {
 } 
 
 function picNoToHTML(input) {
-    return "<img id=\"" + input + "\" src=\"glyph/" + input + ".jpg\" style=\"vertical-align: text-top;\" width=\"44\" height=\"158\" />";
+    return "<img id=\"" + input + "\" src=\"./glyph/" + input + ".jpg\" style=\"vertical-align: text-top;\" width=\"44\" height=\"158\" />";
 } 
 
 function convert() {
