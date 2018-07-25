@@ -1,6 +1,6 @@
 # 女书词典
 
-[English Version](https://chromezh.github.io/nushu-dictionary/index_en.htm)
+[English Version](https://chromezh.github.io/nushu-dictionary/index_en.html)
 
 欢迎来到女书词典！
 
