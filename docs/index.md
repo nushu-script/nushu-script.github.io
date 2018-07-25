@@ -1,24 +1,26 @@
-# nushu-dictionary [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+# 女书词典
 
-Welcome to Nushu dictionary! / 欢迎来到女书词典！
+[English Version](https://chromezh.github.io/nushu-dictionary/index_en.htm)
 
-Latest Version / 最新版本：20180528
+欢迎来到女书词典！
 
-## Tools / 工具
+最新版本：20180528
 
-**[Unicode Nushu Converter / Unicode 女书转换器](https://chromezh.github.io/nushu-dictionary/converter_zh.htm)**
+## 工具
+
+**[Unicode 女书转换器](https://chromezh.github.io/nushu-dictionary/converter_zh.htm)**
 
 目前支持将 1700 余个汉字转换为对应的女书字。
 
-**[Unicode Nushu Input Method / Unicode 女书输入法](https://chromezh.github.io/unicode_nushu/)**
+**[Unicode 女书输入法](https://chromezh.github.io/unicode_nushu/)**
 
 使用汉语拼音（普通话）和女书拼音（江永方言）两种方式输入女书，且具有汉字提示功能。
 
-**[Unicode Nushu List / Unicode 女书一览表](https://chromezh.github.io/nushu-dictionary/list.htm)**
+**[Unicode 女书一览表](https://chromezh.github.io/nushu-dictionary/list.htm)**
 
 Unicode 中的全部 396 个女书字符与汉字的对应关系。
 
-## Introduction / 介绍
+## 介绍
 
 女书，世界上发现的唯一一种女性文字，起源于南部湖南省的江永县，故又名江永女书。是一种曾在湖南省江永县及其毗邻的道县、江华瑶族自治县的大瑶山和广西部分地区的妇女之间流行、传承的神秘文字。
 
@@ -34,7 +36,7 @@ Unicode 中的全部 396 个女书字符与汉字的对应关系。
 
 女书作品书写在精制布面手写本（婚嫁礼物）、扇面、布帕、纸片上，分别叫做「三朝书」、「歌扇」、「帕书」、「纸文」。有的绣在帕子上，叫「绣字」。当地妇女有唱歌堂的习惯，常常聚在一起，一边做女红，一边唱读、传授女书。妇女们唱习女书的活动被称作「读纸」、「读扇」、「读帕」，形成一种别具特色的女书文化。
 
-## Gallery / 画廊
+## 画廊
 
 ![女书作品](https://chromezh.github.io/nushu-dictionary/pic/calligraphy.jpg) 
 
@@ -44,7 +46,7 @@ Unicode 中的全部 396 个女书字符与汉字的对应关系。
 
 **刻有女书的雕母钱**【[来源](http://blog.sina.com.cn/s/blog_ad72d50a0102x0ec.html)】
 
-## Maintenance / 维护
+## 维护
 
 目前女书词典收录 Unicode 中的 396 个女书字符。
 

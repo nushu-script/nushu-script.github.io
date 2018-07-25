@@ -1,4 +1,4 @@
-default : docs/list.htm docs/converter.js docs/converter_pic.js docs/charMap.js docs/picMap.js docs/converter.htm docs/converter_zh.htm docs/converter_pic.htm docs/converter_pic_zh.htm docs/converter.css docs/index.md
+default : docs/list.htm docs/converter.js docs/converter_pic.js docs/charMap.js docs/picMap.js docs/converter.htm docs/converter_zh.htm docs/converter_pic.htm docs/converter_pic_zh.htm docs/converter.css docs/index.md docs/index_en.md
 
 docs/list.htm : gen/list.pl
 	perl gen/list.pl < data.txt > docs/list.htm
@@ -32,6 +32,9 @@ docs/converter.css : gen/converter.css
 
 docs/index.md : README.md
 	cp README.md docs/index.md
+
+docs/index_en.md : index_en.md
+	cp index_en.md docs/index_en.md
 
 clean :
 	rm -f docs/list.htm docs/picMap.js docs/charMap.js docs/converter.htm docs/index.md docs/converter.js
