@@ -4,11 +4,9 @@ Version / 版本：20180528
 
 If you cannot see the Nushu charcater, please download the font TH-Tshyn-P1 in TH-Fonts. / 如果您看不到女书字符，请安装天珩全字库中的 TH-Tshyn-P1 字体。
 
-{:nushu: style="font-family: TH-Tshyn-P1;"}
-
 | 序号 | Unicode 编码 | 女书字符 | 图片 | 《字帖》序 | 对应汉字 | 江永方言代表发音 | 备注 |
 | :-: | :-: | :-: | :-: | :-: | :- | :- | :- |
-| 0 | U+01b170 | {::nushu}𛅰{:/nushu} | ![U+01b170](./glyph/0.jpg) | 0 | 一 | i5 |  |
+| 0 | U+01b170 | <span>𛅰</span>{: style="font-family: TH-Tshyn-P1;"} | ![U+01b170](./glyph/0.jpg) | 0 | 一 | i5 |  |
 | 1 | U+01b171 | 𛅱 | ![U+01b171](./glyph/1.jpg) | 1 | 两日入二 | na33 |  |
 | 2 | U+01b172 | 𛅲 | ![U+01b172](./glyph/2.jpg) | 2 | 傺错七 | tsha5 |  |
 | 3 | U+01b173 | 𛅳 | ![U+01b173](./glyph/3.jpg) | 3 | 人 | ie21 |  |
