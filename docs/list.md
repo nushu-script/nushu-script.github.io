@@ -2,7 +2,7 @@
 
 Version / 版本：20180528
 
-If you cannot see the Nushu charcater, please download the font TH-Tshyn-P1 in TH-Fonts. / 如果您看不到女书字符，请安装天珩全字库中的 TH-Tshyn-P1 字体。
+If you cannot see the Nushu charcater, please download the font TH-Tshyn-P1 in [TH-Fonts](http://cheonhyeong.com/English/download.html). / 如果您看不到女书字符，请安装[天珩全字库](http://cheonhyeong.com/Simplified/download.html)中的 TH-Tshyn-P1 字体。
 
 | 序号 | Unicode 编码 | 女书字符 | 图片 | 《字帖》序 | 对应汉字 | 江永方言代表发音 | 备注 |
 | :-: | :-: | :-: | :-: | :-: | :- | :- | :- |

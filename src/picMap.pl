@@ -1,3 +1,4 @@
+#!/usr/bin/env perl
 use strict;
 use warnings;
 use Encode;
@@ -12,9 +13,9 @@ my $nushuNo;
 Encode::_utf8_on($chars);
 
 sub insert {
-    if($nushuNo) {
-        for(0 .. $#arr_chars) {
-            if($arr_chars[$_] eq $&) {
+    if ($nushuNo) {
+        for (0 .. $#arr_chars) {
+            if ($arr_chars[$_] eq $&) {
                 $arr_nushuNo[$_] .= '|' . $nushuNo;
                 return;
             }
@@ -26,12 +27,12 @@ sub insert {
 
 <STDIN>;  # Skip heading
 
-while(<STDIN>) {
+while (<STDIN>) {
     /^([^\t]*?)\t[^\t]*?\t[^\t]*?\t[^\t]*?\t([^\t]*?)\t[^\t]*?\t[^\t]*?$/;
     $nushuNo = $1;
     $chars = $2;
 
-    while($chars =~ /./) {
+    while ($chars =~ /./) {
         insert();
         $chars = $';
     }
@@ -44,7 +45,7 @@ EOF
 
 print '"', shift @arr_chars, '":"', shift @arr_nushuNo, '"';
 
-while(@arr_chars) {
+while (@arr_chars) {
     print ",\n\"", shift @arr_chars, '":"', shift @arr_nushuNo, '"';
 }
 
