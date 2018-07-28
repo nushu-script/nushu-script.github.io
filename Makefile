@@ -1,7 +1,7 @@
-default : docs/list.htm docs/converter.js docs/converter_pic.js docs/charMap.js docs/picMap.js docs/converter.htm docs/converter_zh.htm docs/converter_pic.htm docs/converter_pic_zh.htm docs/converter.css docs/index.md docs/index_en.md
+default : docs/list.md docs/converter.js docs/converter_pic.js docs/charMap.js docs/picMap.js docs/converter.htm docs/converter_zh.htm docs/converter_pic.htm docs/converter_pic_zh.htm docs/converter.css docs/index.md docs/index_en.md
 
-docs/list.htm : src/list.pl
-	perl src/list.pl < data.txt > docs/list.htm
+docs/list.md : src/list.pl
+	perl src/list.pl < data.txt > docs/list.md
 
 docs/converter.js : src/converter.js
 	uglifyjs src/converter.js -o docs/converter.js

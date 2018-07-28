@@ -10,7 +10,7 @@ Latest Version: 20180528
 
 **[Unicode Nushu Input Method](https://chromezh.github.io/unicode_nushu/)**
 
-**[Unicode Nushu List](https://chromezh.github.io/nushu-dictionary/list.htm)**
+**[Unicode Nushu List](https://chromezh.github.io/nushu-dictionary/list.html)**
 
 ## Gallery
 

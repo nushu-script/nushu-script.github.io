@@ -1,22 +1,21 @@
 use strict;
 use warnings;
-use Encoding;
+use Encode;
 use 5.010;
+binmode STDIN, ':utf8';
 binmode STDOUT, ':utf8';
 
 my @arr_chars;
 my @arr_nushu;
 my $chars;
 my $nushu;
+Encode::_utf8_on($nushu);
+Encode::_utf8_on($chars);
 
-sub insert
-{
-    if($nushu)
-    {
-        for(0 .. $#arr_chars)
-        {
-            if($arr_chars[$_] eq $&)
-            {
+sub insert {
+    if($nushu) {
+        for(0 .. $#arr_chars) {
+            if($arr_chars[$_] eq $&) {
                 $arr_nushu[$_] .= '|' . $nushu;
                 return;
             }
@@ -28,17 +27,12 @@ sub insert
 
 <STDIN>;  # Skip heading
 
-while(<STDIN>)
-{
-    /^(.*?)\t(.*?)\t.*?\t.*?\t.*?\t.*?$/;
+while(<STDIN>) {
+    /^[^\t]*?\t[^\t]*?\t([^\t]*?)\t[^\t]*?\t([^\t]*?)\t[^\t]*?\t[^\t]*?$/;
     $nushu = $1;
     $chars = $2;
 
-    Encode::_utf8_on($nushu);
-    Encode::_utf8_on($chars);
-
-    while($chars =~ /./)
-    {
+    while($chars =~ /./) {
         insert();
         $chars = $';
     }
@@ -51,8 +45,7 @@ EOF
 
 print '"', shift @arr_chars, '":"', shift @arr_nushu, '"';
 
-while(@arr_chars)
-{
+while(@arr_chars) {
     print ",\n\"", shift @arr_chars, '":"', shift @arr_nushu, '"';
 }
 
