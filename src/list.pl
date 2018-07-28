@@ -18,6 +18,6 @@ binmode STDOUT, ':utf8';
 <STDIN>;  # Skip heading
 
 while(<STDIN>) {
-    s/^([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)$/| $1 | $2 | $3 | ![$2](.\/glyph\/$1.jpg) | $4 | $5 | $6 | $7 |/;
+    s/^([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)$/| $1 | $2 | <span>$3<\/span>{: style="font-family: TH-Tshyn-P1; font-size: 200%;"} | ![$2](.\/glyph\/$1.jpg) | $4 | $5 | $6 | $7 |/;
     print $_;
 }
