@@ -2,10 +2,10 @@ default : docs/cnv/converter.js           \
 docs/cnv/converter_pic.js                 \
 docs/cnv/charMap.js                       \
 docs/cnv/picMap.js                        \
-docs/cnv/converter.htm                    \
-docs/cnv/converter_zh.htm                 \
-docs/cnv/converter_pic.htm                \
-docs/cnv/converter_pic_zh.htm             \
+docs/cnv/index.htm                        \
+docs/cnv/index_zh.htm                     \
+docs/cnv/index_pic.htm                    \
+docs/cnv/index_pic_zh.htm                 \
 docs/cnv/converter.css                    \
                                           \
 docs/ime/index.md                         \
@@ -40,17 +40,17 @@ docs/cnv/charMap.js : cnv/charMap.pl data.txt
 docs/cnv/picMap.js : cnv/picMap.pl data.txt
 	perl cnv/picMap.pl < data.txt > docs/picMap.js
 
-docs/cnv/converter.htm : cnv/converter.htm
-	cp cnv/converter.htm docs/cnv/converter.htm
+docs/cnv/index.htm : cnv/index.htm
+	cp cnv/index.htm docs/cnv/index.htm
 
-docs/cnv/converter_zh.htm : cnv/converter_zh.htm
-	cp cnv/converter_zh.htm docs/cnv/converter_zh.htm
+docs/cnv/index_zh.htm : cnv/index_zh.htm
+	cp cnv/index_zh.htm docs/cnv/index_zh.htm
 
-docs/cnv/converter_pic.htm : cnv/converter_pic.htm
-	cp cnv/converter_pic.htm docs/cnv/converter_pic.htm
+docs/cnv/index_pic.htm : cnv/index_pic.htm
+	cp cnv/index_pic.htm docs/cnv/index_pic.htm
 
-docs/cnv/converter_pic_zh.htm : cnv/converter_pic_zh.htm
-	cp cnv/converter_pic_zh.htm docs/cnv/converter_pic_zh.htm
+docs/cnv/index_pic_zh.htm : cnv/index_pic_zh.htm
+	cp cnv/index_pic_zh.htm docs/cnv/index_pic_zh.htm
 
 docs/cnv/converter.css : cnv/converter.css
 	cp cnv/converter.css docs/cnv/converter.css

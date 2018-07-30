@@ -20,5 +20,5 @@ binmode STDOUT, ':utf8';
 
 while (<STDIN>) {
     /^([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)\t([^\t]*?)$/;
-    print "| $1 | $2 | <span>$3<\/span>{: style=\"font-family: TH-Tshyn-P1; font-size: 200%;\"} | ![$2](.\/glyph\/$1.jpg) | $4 | $5 | $6 | $7 |\n";
+    print "| $1 | $2 | <span>$3<\/span>{: style=\"font-family: TH-Tshyn-P1; font-size: 200%;\"} | ![$2](..\/glyph\/$1.jpg) | $4 | $5 | $6 | $7 |\n";
 }
