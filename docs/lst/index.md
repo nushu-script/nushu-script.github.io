@@ -1,3 +1,5 @@
+[前往 Unicode 女书词典首页](../)
+
 # Unicode Nushu List / Unicode 女书一览表
 
 Version / 版本：20180528
