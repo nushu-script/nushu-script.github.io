@@ -21,8 +21,8 @@ docs/index_en.md
 data.txt :
 	wget -q https://raw.githubusercontent.com/chromezh/unicode_nushu/master/data.txt
 
-docs/ime/s2nushu.txt : ime/s2nushu.pl data.txt
-	perl ime/s2nushu.pl < data.txt > docs/ime/s2nushu.txt
+s2nushu.txt : ime/s2nushu.pl data.txt
+	perl ime/s2nushu.pl < data.txt > s2nushu.txt
 
 # results
 
@@ -38,7 +38,7 @@ docs/cnv/charMap.js : cnv/charMap.pl data.txt
 	perl cnv/charMap.pl < data.txt > docs/cnv/charMap.js
 
 docs/cnv/picMap.js : cnv/picMap.pl data.txt
-	perl cnv/picMap.pl < data.txt > docs/picMap.js
+	perl cnv/picMap.pl < data.txt > docs/cnv/picMap.js
 
 docs/cnv/index.htm : cnv/index.htm
 	cp cnv/index.htm docs/cnv/index.htm
@@ -60,8 +60,8 @@ docs/cnv/converter.css : cnv/converter.css
 docs/ime/index.md : ime/index.md
 	cp ime/index.md docs/ime/index.md
 
-docs/ime/UnicodeNushu.zip : ime/unicode_nushu_romanization.dict.yaml ime/unicode_nushu_romanization.schema.yaml ime/luna_pinyin_nushu.schema.yaml ime/s2nushu.json docs/ime/s2nushu.txt
-	7z a docs/ime/UnicodeNushu.zip ime/unicode_nushu_romanization.dict.yaml ime/unicode_nushu_romanization.schema.yaml ime/luna_pinyin_nushu.schema.yaml ime/s2nushu.json docs/ime/s2nushu.txt
+docs/ime/UnicodeNushu.zip : ime/unicode_nushu_romanization.dict.yaml ime/unicode_nushu_romanization.schema.yaml ime/luna_pinyin_nushu.schema.yaml ime/s2nushu.json s2nushu.txt
+	7z a docs/ime/UnicodeNushu.zip ime/unicode_nushu_romanization.dict.yaml ime/unicode_nushu_romanization.schema.yaml ime/luna_pinyin_nushu.schema.yaml ime/s2nushu.json s2nushu.txt
 
 ## lst
 
@@ -77,4 +77,22 @@ docs/index_en.md : index_en.md
 	cp index_en.md docs/index_en.md
 
 clean :
-#	rm -rf docs/*.*
+	rm -f data.txt                        \
+s2nushu.txt                               \
+docs/cnv/converter.js                     \
+docs/cnv/converter_pic.js                 \
+docs/cnv/charMap.js                       \
+docs/cnv/picMap.js                        \
+docs/cnv/index.htm                        \
+docs/cnv/index_zh.htm                     \
+docs/cnv/index_pic.htm                    \
+docs/cnv/index_pic_zh.htm                 \
+docs/cnv/converter.css                    \
+                                          \
+docs/ime/index.md                         \
+docs/ime/UnicodeNushu.zip                 \
+                                          \
+docs/lst/index.md                         \
+                                          \
+docs/index.md                             \
+docs/index_en.md
