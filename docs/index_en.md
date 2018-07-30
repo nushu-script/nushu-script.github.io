@@ -6,11 +6,11 @@ Latest Version: 20180528
 
 ## Tools
 
-**[Unicode Nushu Converter](https://chromezh.github.io/nushu-dictionary/converter.htm)**
+**[Unicode Nushu Converter](https://chromezh.github.io/nushu-dictionary/cnv/)**
 
-**[Unicode Nushu Input Method](https://chromezh.github.io/unicode_nushu/)**
+**[Unicode Nushu Input Method](https://chromezh.github.io/nushu-dictionary/ime/)**
 
-**[Unicode Nushu List](https://chromezh.github.io/nushu-dictionary/list.html)**
+**[Unicode Nushu List](https://chromezh.github.io/nushu-dictionary/lst/)**
 
 ## Gallery
 

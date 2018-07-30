@@ -1,12 +1,12 @@
-Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nushu-dictionary/)的一部分。
+[返回 Unicode 女书词典首页](../)。
 
 # Unicode 女书输入法
 
 **使用 Unicode 女书输入法，简便地输入 Unicode 编码的 396 个女书字符。**
 
-![Unicode 女书输入法](https://chromezh.github.io/unicode_nushu/demo/weasel_unicode_nushu0.png)
+![Unicode 女书输入法](./demo/weasel_unicode_nushu0.png)
 
-![Unicode 女书输入法](https://chromezh.github.io/unicode_nushu/demo/weasel_unicode_nushu1.png)
+![Unicode 女书输入法](./demo/weasel_unicode_nushu1.png)
 
 | Unicode 女书输入法必要文件 | 最新版本 |
 | :- | :- |
@@ -14,7 +14,7 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 | unicode_nushu_romanization.schema.yaml | 20180506 V1.0.03 |
 | luna_pinyin_nushu.schema.yaml | 20180506 V1.0.01 |
 | s2nushu.json | 20180506 |
-| s2nushu.txt | 20180528 ![new](https://chromezh.github.io/unicode_nushu/demo/new_6.png) |
+| s2nushu.txt | 20180528 ![new](./demo/new_6.png) |
 
 ## 安装方法
 
@@ -32,7 +32,7 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 
 　　若使用 Windows 操作系统，在 `TH-Tshyn-P1.ttf` 上点击右键，选择「安装」，即可安装天珩全字库。
 
-![](demo/win_weasel_addTH.png)
+![](./demo/win_weasel_addTH.png)
 
 > 注意：天珩全字库属于非盈利的、学习研究型的字库，目的是汉字的显示，不制作或出售任何商业作品。字形版权：中易、华康、Iwata、Besta、方正。字库中字体的字形均为上述公司制作，非本软件作者制作。字库的字体属于已经公开的字体，故字库仅仅起到收集整理的作用，方便用户使用。作者并未对字体做出任何有意义的改动，若有任何人以字库的名义收取任何费用，字库作者不承担任何连带责任。
 
@@ -56,7 +56,7 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 
 　　要打开【小狼毫】程序文件夹，需要在「开始菜单」中点击「小狼毫輸入法」->「【小狼毫】程序文件夾」。
 
-![](demo/win_weasel_addschema_1.png)
+![](./demo/win_weasel_addschema_1.png)
 
 #### 二、启用输入方案
 
@@ -64,21 +64,21 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 
 　　在弹出的方案选单中找到「朙月拼音·Unicode 女书」和「Unicode 女书拼音」**两项**，并勾选，点击「中」。
 
-![](demo/win_weasel_addschema_4.png)
+![](./demo/win_weasel_addschema_4.png)
 
 　　待部署完成后，按 `F4` 或 ```Ctrl+` ``` 唤出菜单，选择「朙月拼音·Unicode 女书」，即可使用 Unicode 女书输入法。
 
-![](demo/win_weasel_addschema_3.png)
+![](./demo/win_weasel_addschema_3.png)
 
 #### 三、使用效果
 
 　　新建一个文档，使用 Unicode 女书输入法输入一个女书字符。
 
-![](demo/word_nushu_0.png)
+![](./demo/word_nushu_0.png)
 
 　　如果没有切换字体，字符可能不能正确显示。此时在字体栏中选择 `TH-Tshyn-P1` 即可。
 
-![](demo/word_nushu_1.png)
+![](./demo/word_nushu_1.png)
 
 ## Unicode 女书输入法更新
 
@@ -120,7 +120,7 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 
 　　目前支持 1760 个汉字，其他汉字尚不能转换为对应的女书。
 
-![](https://chromezh.github.io/unicode_nushu/demo/weasel_unicode_nushu1.png)
+![](./demo/weasel_unicode_nushu1.png)
 
 ### 使用女书拼音输入女书
 
@@ -130,11 +130,11 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 
 　　按下 &#96; 键（在键盘的左上角）， 进入女书拼音输入模式。
 
-![](https://chromezh.github.io/unicode_nushu/demo/weasel_unicode_nushu3.png)
+![](./demo/weasel_unicode_nushu3.png)
 
 　　继续输入字母，即可通过女书拼音输入女书。
 
-![](https://chromezh.github.io/unicode_nushu/demo/weasel_unicode_nushu0.png)
+![](./demo/weasel_unicode_nushu0.png)
 
 　　另外，按 `F4` 或 ```Ctrl+` ``` 唤出菜单，选择「Unicode 女书拼音」，可以在不按 &#96; 键的情况下，通过女书拼音输入女书。
 
@@ -142,11 +142,11 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 
 　　使用「朙月拼音·Unicode 女书」时，有两种方法退出女书模式。退出女书输入模式后，仍然是使用普通话拼音进行输入，但得到的是汉字，而不是女书。
 
-![](https://chromezh.github.io/unicode_nushu/demo/weasel_unicode_nushu2.png)
+![](./demo/weasel_unicode_nushu2.png)
 
 　　可以按 `F4` 或 ```Ctrl+` ``` 唤出菜单，再按 4 选择「女书 -> 汉字」选项退出女书模式，也可以按 `Ctrl+Shift+4` 快捷键退出女书模式。
 
-![](https://chromezh.github.io/unicode_nushu/demo/weasel_unicode_nushu4.png)
+![](./demo/weasel_unicode_nushu4.png)
 
 ## 女书拼音
 
@@ -184,7 +184,7 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 
 　　本表修订于 2018 年 5 月 6 日。
 
-![Unicode 编码-女书发音对照表](https://chromezh.github.io/unicode_nushu/demo/unicode-nushu-pronunciation_table.png)
+![Unicode 编码-女书发音对照表](./demo/unicode-nushu-pronunciation_table.png)
 
 ## 致谢
 
@@ -203,8 +203,6 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 
 　　欢迎更多的人参与到 Unicode 女书输入法的开发中，为本项目的完善贡献力量。
 
-## 简介
-
 ### Unicode
 
 　　[Unicode](http://www.unicode.org/)（统一码、万国码、单一码）是计算机科学领域里的一项业界标准，包括字符集、编码方案等。Unicode 是为了解决传统的字符编码方案的局限而产生的，它为每种语言中的每个字符设定了统一并且唯一的二进制编码，以满足跨语言、跨平台进行文本转换、处理的要求。
@@ -213,11 +211,11 @@ Unicode 女书输入法是 [Unicode 女书词典](https://chromezh.github.io/nus
 
 　　[http://www.unicode.org/charts/PDF/U1B170.pdf](http://www.unicode.org/charts/PDF/U1B170.pdf)
 
-![](demo/unicode_charts_nushu_screenshoot.png)
+![](./demo/unicode_charts_nushu_screenshoot.png)
 
 ### 中州韵输入法引擎（RIME）
 
-　　[RIME | 中州韻輸入法引擎](http://rime.im/)（RIME）是一个优秀的开源输入法框架，它最卓越的特点是高度可配置，支持用户定制输入方案、码表、用户词典、按键行为、界面外观，因此受到了语言文字爱好者的欢迎。爱好者们基于 RIME 实现了包括双拼、方言在内的各种输入法。
+　　[RIME &#124; 中州韻輸入法引擎](http://rime.im/)（RIME）是一个优秀的开源输入法框架，它最卓越的特点是高度可配置，支持用户定制输入方案、码表、用户词典、按键行为、界面外观，因此受到了语言文字爱好者的欢迎。爱好者们基于 RIME 实现了包括双拼、方言在内的各种输入法。
 
 　　RIME 可以在各种操作系统上使用，在 Windows 上称为「[小狼毫](https://github.com/rime/weasel)（Weasel）」，在 Linux 上有 [ibus-rime](https://github.com/rime/ibus-rime) 和 [fcitx-rime](https://github.com/fcitx/fcitx-rime)，在 macOS 上称为「[鼠须管](https://github.com/rime/squirrel)（Squirrel）」，在 Android 上称为「[同文输入法](https://github.com/osfans/trime)（trime）」，在 iOS 上称为 iRime。
 
