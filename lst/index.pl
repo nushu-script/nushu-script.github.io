@@ -3,7 +3,9 @@ use strict;
 use warnings;
 use 5.010;
 
-print '# Unicode Nushu List / Unicode 女书一览表
+print '[前往 Unicode 女书词典首页](../)
+
+# Unicode Nushu List / Unicode 女书一览表
 
 Version / 版本：20180528
 
