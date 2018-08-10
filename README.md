@@ -42,6 +42,8 @@
 
 ## 维护
 
+欢迎为女书词典项目贡献力量！
+
 目前女书词典收录 Unicode 中的 396 个女书字符。
 
-进入[项目主页](https://github.com/chromezh/nushu-dictionary)，编辑 `data.txt` 文件，可以向文件中添加或修改汉字-女书对应关系。
+女书词典所使用的数据取自 [Unicode Nushu](https://github.com/chromezh/unicode_nushu)。进入上述项目主页，编辑 `data.txt` 文件，可以向文件中添加或修改汉字-女书对应关系。
