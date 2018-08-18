@@ -52,5 +52,5 @@ function showText() {
             ret += s[xs_choice[i]];
         }
     }
-    document.getElementById("textBox").value = ret;
+    document.getElementById("output").value = ret;
 }

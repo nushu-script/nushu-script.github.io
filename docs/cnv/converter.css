@@ -48,7 +48,7 @@ h1 {
     font-size: 25px;
 }
 
-#selectContext {
+#selectContext,#output {
     border: 1px solid dodgerblue;
     border-radius: 5px;
     min-height: 300px;
