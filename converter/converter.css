@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: sans-serif, TH-Tshyn-P1, sans-serif;
 }
 
 body {
@@ -18,7 +19,6 @@ h1 {
 }
 
 section {
-	font-family: sans-serif;
 	margin: 1em auto;
 	max-width: 800px;
 	text-align: center;
@@ -45,7 +45,6 @@ button:hover {
 }
 
 .nushu {
-	font-family: sans-serif, TH-Tshyn-P1, sans-serif;
 	font-size: 25px;
 }
 
