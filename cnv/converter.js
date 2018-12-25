@@ -9,7 +9,7 @@ function HTMLEncode(input) {
 } 
 
 function picNoToHTML(input) {
-    return "<img id=\"" + input + "\" src=\"../glyph/" + input + ".jpg\" />";
+    return "<img id=\"" + input + "\" src=\"http://nushuscript.org/unicode_nushu/glyph/" + input + ".jpg\" />";
 } 
 
 function convert() {
