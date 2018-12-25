@@ -17,7 +17,7 @@ function convert() {
     var xs = document.getElementById("textBox").value.split("");
     for (var i = 0; i < xs.length; i++) {
         var ys = xs[i];
-        var mapedYs = mappic[ys];
+        var mapedYs = dictmap[ys];
         if (!mapedYs) {
             selectContextHTML += HTMLEncode(ys);
         } else {

@@ -4,11 +4,11 @@
 
 ## 工具
 
-**[Unicode 女书转换器](http://nushuscript.org/cnv/)**：目前支持将 1700 余个汉字转换为对应的女书字。
+**[Unicode 女书转换器](http://nushuscript.org/converter/)**：目前支持将 1700 余个汉字转换为对应的女书字。
 
 **[Unicode 女书输入法](http://nushuscript.org/rime-unicode_nushu/)**：使用汉语拼音（普通话）和女书拼音（江永方言）两种方式输入女书，且具有汉字提示功能。
 
-**[Unicode 女书一览表](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv)**：Unicode 中的全部 396 个女书字符与汉字的对应关系。
+**[Unicode 女书一览表](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv)**：Unicode 中全部 396 个女书字符与汉字的对应关系。
 
 ## 介绍
 
@@ -28,18 +28,16 @@
 
 ## 画廊
 
-![女书作品](https://chromezh.github.io/nushu-dictionary/pic/calligraphy.jpg) 
+![女书作品](http://nushuscript.org/img/calligraphy.jpg) 
 
-**女书作品**【[来源](http://photo.blog.sina.com.cn/photo/1368797710/5196320ege1f91cd284d1)】
+[**女书作品**](http://photo.blog.sina.com.cn/photo/1368797710/5196320ege1f91cd284d1)
 
-![刻有女书的雕母钱](https://chromezh.github.io/nushu-dictionary/pic/coin.jpg)
+![刻有女书的雕母钱](http://nushuscript.org/img/coin.jpg)
 
-**刻有女书的雕母钱**【[来源](http://blog.sina.com.cn/s/blog_ad72d50a0102x0ec.html)】
+[**刻有女书的雕母钱**](http://blog.sina.com.cn/s/blog_ad72d50a0102x0ec.html)
 
 ## 维护
 
-欢迎为女书词典项目贡献力量！
+欢迎为女书词典贡献力量！
 
-目前女书词典收录 Unicode 中的 396 个女书字符。
-
-女书词典所使用的数据取自 [Unicode Nushu](https://github.com/chromezh/unicode_nushu)。进入上述项目主页，编辑 `data.txt` 文件，可以向文件中添加或修改汉字-女书对应关系。
+参见 [unicode_nushu](http://nushuscript.org/unicode_nushu/)。

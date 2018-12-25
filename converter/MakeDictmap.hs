@@ -1,5 +1,5 @@
--- Make mappic.js for Nushu Converter
--- Usage: echo -e "var mappic = {\n`stack runhaskell -- -Wall -Werror cnv/MakeMappic < data.csv`\n}" > cnv/mappic.js
+-- Make dictmap.js for Nushu Converter
+-- Usage: echo -e "var dictmap = {\n`stack runhaskell -- -Wall -Werror cnv/MakeDictmap < data.csv`\n}" > cnv/dictmap.js
 
 import Data.List (intercalate)
 import Data.List.Split (splitOn)
