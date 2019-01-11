@@ -4,9 +4,9 @@
 
 ## 工具
 
-**[Unicode 女书转换器](http://nushuscript.org/converter/)**：目前支持将 1700 余个汉字转换为对应的女书字。
+**[Unicode 女书转换器](https://nushuscript.org/converter/)**：目前支持将 1700 余个汉字转换为对应的女书字。
 
-**[Unicode 女书输入法](http://nushuscript.org/rime-unicode_nushu/)**：使用汉语拼音（普通话）和女书拼音（江永方言）两种方式输入女书，且具有汉字提示功能。
+**[Unicode 女书输入法](https://nushuscript.org/rime-unicode_nushu/)**：使用汉语拼音（普通话）和女书拼音（江永方言）两种方式输入女书，且具有汉字提示功能。
 
 **[Unicode 女书一览表](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv)**：Unicode 中全部 396 个女书字符与汉字的对应关系。
 
@@ -28,11 +28,11 @@
 
 ## 画廊
 
-![女书作品](http://nushuscript.org/img/calligraphy.jpg) 
+![女书作品](https://nushuscript.org/img/calligraphy.jpg) 
 
 [**女书作品**](http://photo.blog.sina.com.cn/photo/1368797710/5196320ege1f91cd284d1)
 
-![刻有女书的雕母钱](http://nushuscript.org/img/coin.jpg)
+![刻有女书的雕母钱](https://nushuscript.org/img/coin.jpg)
 
 [**刻有女书的雕母钱**](http://blog.sina.com.cn/s/blog_ad72d50a0102x0ec.html)
 
@@ -40,4 +40,4 @@
 
 欢迎为女书词典贡献力量！
 
-参见 [unicode_nushu](http://nushuscript.org/unicode_nushu/)。
+参见 [unicode_nushu](https://nushuscript.org/unicode_nushu/)。
