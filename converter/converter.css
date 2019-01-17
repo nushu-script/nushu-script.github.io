@@ -18,9 +18,13 @@ h1 {
 }
 
 section {
-	margin: 1em 0.5em;
+	margin: 1em auto;
 	max-width: 800px;
 	text-align: center;
+}
+
+section > div {
+	margin: 0 0.5em;
 }
 
 button {
