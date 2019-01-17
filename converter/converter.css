@@ -4,13 +4,12 @@
 }
 
 body {
-	background: snow;
 	margin: 0;
 }
 
 h1 {
-	background-color: #157699;
-	background-image: linear-gradient(120deg, #159199, #157699, #aaa);
+	background-color: #159957;
+	background-image: linear-gradient(120deg, #155799, #159957);
 	color: snow;
 	border-bottom: 2px solid grey;
 	margin: 0;
@@ -19,7 +18,7 @@ h1 {
 }
 
 section {
-	margin: 1em auto;
+	margin: 1em 0.5em;
 	max-width: 800px;
 	text-align: center;
 }
@@ -72,5 +71,5 @@ button:hover {
 	border: 1px solid dodgerblue;
 	font-size: inherit;
 	padding: 15px;
-	resize: none
+	resize: none;
 }
