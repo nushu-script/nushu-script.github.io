@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	font-family: sans-serif, TH-Tshyn-P1, sans-serif;
 }
 
 body {
@@ -10,8 +9,8 @@ body {
 h1 {
 	background-color: #159957;
 	background-image: linear-gradient(120deg, #155799, #159957);
-	color: snow;
 	border-bottom: 2px solid grey;
+	color: snow;
 	margin: 0;
 	padding: 2em 0;
 	text-align: center;
@@ -20,11 +19,8 @@ h1 {
 section {
 	margin: 1em auto;
 	max-width: 800px;
+	padding: 0 0.5em;
 	text-align: center;
-}
-
-section > div {
-	margin: 0 0.5em;
 }
 
 button {
@@ -35,19 +31,15 @@ button {
 	padding: 6px 14px;
 	text-align: center;
 	transition-duration: 0.4s;
-	-webkit-transition-duration: 0.4s; /* Safari */
+	-webkit-transition-duration: 0.4s;
 }
 
 button:hover {
 	background-color: #79bdff;
 }
 
-.hints {
-	font-size: 90%;
-	margin: 10px;
-}
-
 .nushu {
+	font-family: sans-serif, TH-Tshyn-P1, sans-serif;
 	font-size: 25px;
 }
 
@@ -57,7 +49,7 @@ button:hover {
 	height: 158px;
 }
 
-#selectContext,#output {
+#selectContext, #output {
 	border: 1px solid dodgerblue;
 	min-height: 300px;
 	padding: 15px;

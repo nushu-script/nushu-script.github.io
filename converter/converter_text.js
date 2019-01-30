@@ -1,15 +1,23 @@
 "use strict";
 
+function HTMLEncode(input) {
+    var x = document.createElement('p');
+    x.innerText = input;
+    return x.innerHTML;
+}
+
+var dictmap;
+
+fetch('https://nushuscript.org/unicode_nushu/map.json')
+.then(function(response) {
+    return response.json();
+})
+.then(function(res) {
+    dictmap = res;
+});
+
 var xs;
 var xs_choice;
-
-function HTMLEncode(input) {
-    var converter = document.createElement("DIV");
-    converter.innerText = input;
-    var output = converter.innerHTML;
-    converter = null;
-    return output;
-} 
 
 function convert() {
     xs = document.getElementById("textBox").value.split("").map(function(x) {
@@ -56,13 +64,3 @@ function showText() {
     }
     document.getElementById("output").value = ret;
 }
-
-var dictmap;
-
-fetch('https://nushuscript.org/unicode_nushu/map.json')
-.then(function(response) {
-    return response.json();
-})
-.then(function(res) {
-    dictmap = res;
-});

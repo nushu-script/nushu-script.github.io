@@ -1,43 +1,28 @@
 "use strict";
 
 function HTMLEncode(input) {
-    var converter = document.createElement("DIV");
-    converter.innerText = input;
-    var output = converter.innerHTML;
-    converter = null;
-    return output;
-} 
-
-function picNoToHTML(input) {
-    return "<img id=\"" + input + "\" src=\"https://nushuscript.org/unicode_nushu/glyph/" + input + ".jpg\" />";
-} 
-
-function convert() {
-    var selectContextHTML = "";
-    var xs = document.getElementById("textBox").value.split("");
-    for (var i = 0; i < xs.length; i++) {
-        var ys = xs[i];
-        var mapedYs = dictmap[ys];
-        if (!mapedYs) {
-            selectContextHTML += HTMLEncode(ys);
-        } else {
-            var splitedMapedYs = mapedYs.split(" ");
-            selectContextHTML += HTMLEncode(ys);
-            for (var j = 0; j < splitedMapedYs.length; j++) {
-                selectContextHTML += picNoToHTML(splitedMapedYs[j]);
-            }
-        }
-    }
-    document.getElementById("selectContext").innerHTML = selectContextHTML;
+    var x = document.createElement('p');
+    x.innerText = input;
+    return x.innerHTML;
 }
 
 var dictmap;
 
 fetch('https://nushuscript.org/unicode_nushu/map.json')
-.then(function(response) {
-    return response.json();
-})
+.then(function(response) { return response.json(); })
 .then(function(res) {
     dictmap = res;
 });
 
+function makeImg(input) {
+    return '<img id="' + input + '" src="https://nushuscript.org/unicode_nushu/glyph/' + input + '.jpg" />';
+} 
+
+function convert() {
+    document.getElementById('selectContext').innerHTML = document.getElementById('textBox').value
+    .split('')
+    .map(function(ys) {
+        return HTMLEncode(ys) + (dictmap[ys] ? dictmap[ys].split(' ').map(makeImg).join('') : '');
+    })
+    .join('');
+}
