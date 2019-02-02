@@ -16,13 +16,14 @@ fetch('https://nushuscript.org/unicode_nushu/map.json')
 
 function makeImg(input) {
     return '<img id="' + input + '" src="https://nushuscript.org/unicode_nushu/glyph/' + input + '.jpg" />';
-} 
+}
+
+function processChar(ys) {
+    return dictmap[ys] ?
+    HTMLEncode(ys) + dictmap[ys].split(' ').map(makeImg).join('') :
+    HTMLEncode(ys);
+}
 
 function convert() {
-    document.getElementById('selectContext').innerHTML = document.getElementById('textBox').value
-    .split('')
-    .map(function(ys) {
-        return HTMLEncode(ys) + (dictmap[ys] ? dictmap[ys].split(' ').map(makeImg).join('') : '');
-    })
-    .join('');
+    document.getElementById('selectContext').innerHTML = document.getElementById('textBox').value.split('').map(processChar).join('');
 }
