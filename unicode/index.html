@@ -2,29 +2,31 @@
 <html lang="zh-cmn-Hans">
 <head>
   <title>《女书规范字书法字帖》转换器（图片版）</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script src="converter.js"></script>
-  <link rel="stylesheet" href="converter.css" type="text/css" />
+  <link rel="stylesheet" href="../style.css" type="text/css"/>
 </head>
 <body>
   <h1>《女书规范字书法字帖》转换器（图片版）</h1>
-  <section>
-    <p><a href="..">前往女书词典首页</a> - <a href="text.html">文字版</a></p>
-    <p>同一个汉字可能对应多个女书字</p>
+  <div class="center">
+    <header>
+      <p><a href="..">前往女书字典首页</a> - <a href="text.html">文字版</a></p>
+      <p>同一个汉字可能对应多个女书字</p>
+    </header>
 
-    <textarea id="textBox" rows="8"></textarea>
+    <textarea id="textBox" rows="4"></textarea>
     <p><button onclick="convert()">转换</button></p>
     <div id="selectContext"></div>
 
     <footer>
       <p>词典版本：20180528。欢迎<a href="https://github.com/nushu-script/nushu-script.github.io/issues">反馈问题</a></p>
       <p>参考资料：
-        <a href="https://book.douban.com/subject/27045237/">女书规范字书法字帖</a>，
+        赵丽明、徐焰<a href="https://book.douban.com/subject/27045237/">女书规范字书法字帖</a>，
         <a href="http://www.thurcacca.org/booksearch.html">传奇女书</a>
       </p>
-      <p>Copyright &copy; 2018-2019 The Nushu Coder's Group on GitHub</p>
+      <p>Copyright &copy; 2018-2019 <a href="https://github.com/nushu-script/">The Nushu Coder's Group on GitHub</a></p>
     </footer>
-  </section>
+  </div>
 </body>
 </html>
