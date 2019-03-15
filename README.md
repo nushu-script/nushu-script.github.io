@@ -1,10 +1,12 @@
-# 女书词典
+# 女书字典
 
-欢迎来到女书词典！
+欢迎来到女书字典！
 
 ## 工具
 
-**[Unicode 女书转换器](https://nushuscript.org/converter/)**：目前支持将 1700 余个汉字转换为对应的女书字。
+**[《女书标准字字典》转换器](https://nushuscript.org/nsbzzzd/)**：根据《女书标准字字典》制作的女书转换器，支持 4200 个汉字。
+
+**[Unicode 女书转换器](https://nushuscript.org/unicode/)**：女书转换器，支持 1700 余个汉字。
 
 **[Unicode 女书一览表](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv)**：Unicode 中全部 396 个女书字符与汉字的对应关系。
 
@@ -36,6 +38,6 @@
 
 ## 维护
 
-欢迎为女书词典贡献力量！
+欢迎为女书字典贡献力量！
 
 参见 [unicode_nushu](https://nushuscript.org/unicode_nushu/)。
