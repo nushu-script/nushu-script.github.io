@@ -6,8 +6,6 @@
 
 **[Unicode 女书转换器](https://nushuscript.org/converter/)**：目前支持将 1700 余个汉字转换为对应的女书字。
 
-**[Unicode 女书输入法](https://nushuscript.org/rime-unicode_nushu/)**：使用汉语拼音（普通话）和女书拼音（江永方言）两种方式输入女书，且具有汉字提示功能。
-
 **[Unicode 女书一览表](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv)**：Unicode 中全部 396 个女书字符与汉字的对应关系。
 
 ## 介绍
