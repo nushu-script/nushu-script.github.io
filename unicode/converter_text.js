@@ -23,7 +23,7 @@ function convert() {
         if (!s)
             return x;
         else
-            return s.split(" ").map(function(n) { return String.fromCodePoint(parseInt(n)); });
+            return s.map(function(n) { return String.fromCodePoint(parseInt(n)); });
     });
     var selectContextHTML = "";
     for (var i = 0; i < xs.length; i++) {

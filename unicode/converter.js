@@ -20,7 +20,7 @@ function makeImg(input) {
 
 function processChar(ys) {
     return dictmap[ys] ?
-    HTMLEncode(ys) + dictmap[ys].split(' ').map(makeImg).join('') :
+    HTMLEncode(ys) + dictmap[ys].map(makeImg).join('') :
     HTMLEncode(ys);
 }
 
