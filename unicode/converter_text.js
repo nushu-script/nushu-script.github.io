@@ -8,7 +8,7 @@ function HTMLEncode(input) {
 
 var dictmap;
 
-fetch('https://nushuscript.org/unicode_nushu/map.json')
+fetch('https://static.nushuscript.org/unicode_nushu/map.json')
 .then(function(response) { return response.json(); })
 .then(function(res) {
     dictmap = res;

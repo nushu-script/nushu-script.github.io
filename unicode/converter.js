@@ -8,14 +8,14 @@ function HTMLEncode(input) {
 
 var dictmap;
 
-fetch('https://nushuscript.org/unicode_nushu/map.json')
+fetch('https://static.nushuscript.org/unicode_nushu/map.json')
 .then(function(response) { return response.json(); })
 .then(function(res) {
     dictmap = res;
 });
 
 function makeImg(input) {
-    return '<img id="' + input + '" src="https://nushuscript.org/unicode_nushu/glyph/' + input + '.jpg" />';
+    return '<img id="' + input + '" src="https://static.nushuscript.org/unicode_nushu/glyph/' + input + '.jpg" />';
 }
 
 function processChar(ys) {
