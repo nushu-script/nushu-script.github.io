@@ -20,7 +20,7 @@ body {
 	}
 }
 
-header#title-block-header > h1.title::before {
+header > h1.title::before {
 	/* Position */
 	height: 4.5em;
 	left: 0;
@@ -37,7 +37,7 @@ header#title-block-header > h1.title::before {
 	box-shadow: 0 1px 5px #aaa;
 }
 
-header#title-block-header > h1.title {
+header > h1.title {
 	color: snow;
 	font-size: 275%;
 	margin: 0;
@@ -47,12 +47,12 @@ header#title-block-header > h1.title {
 }
 
 @media screen and (max-width: 1152px) {
-	header#title-block-header > h1.title {
+	header > h1.title {
 		font-size: 200%;
 	}
 }
 
-header#title-block-header + * {
+header + * {
 	padding-top: 16px;
 }
 
