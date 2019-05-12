@@ -22,7 +22,7 @@ body {
 
 h1.title::before {
 	/* Position */
-	height: 4.5em;
+	height: 4.25em;
 	left: 0;
 	position: absolute;
 	top: 0;
@@ -54,6 +54,11 @@ h1.title {
 
 ul > li > a {
 	font-weight: bold;
+}
+
+span[title] {
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
 }
 
 figure {
