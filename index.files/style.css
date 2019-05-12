@@ -1,0 +1,76 @@
+/* Global Style */
+
+* { box-sizing: border-box; }
+body { font-family: sans-serif; }
+a { text-decoration: none; }
+a:link { color: dodgerblue; }
+a:hover { color: deeppink; }
+p, ul { line-height: 1.75; }
+
+/* Page style */
+
+body {
+	margin: 0 auto;
+	max-width: 42em;
+}
+
+@media screen and (max-width: 1152px) {
+	body {
+		padding: 0 1em;
+	}
+}
+
+h1.title::before {
+	/* Position */
+	height: 4.5em;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+	/* Content */
+	background-color: #159957;
+	background-image: linear-gradient(120deg, #155799, #159957);
+	content: "";
+	/* Box */
+	border-bottom: 2px solid grey;
+	box-shadow: 0 1px 5px #aaa;
+}
+
+h1.title {
+	color: snow;
+	font-size: 275%;
+	margin: 0;
+	padding: 1.5em 0;
+	text-align: center;
+	text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+@media screen and (max-width: 1152px) {
+	h1.title {
+		font-size: 200%;
+	}
+}
+
+ul > li > a {
+	font-weight: bold;
+}
+
+figure {
+	text-align: center;
+}
+
+figure > img {
+	max-width: 100%;
+}
+
+figure > figcaption {
+	font-weight: bold;
+	padding: 0.5em 0;
+}
+
+footer {
+	font-size: 90%;
+	padding: 0.25em 0;
+	text-align: center;
+}
