@@ -83,3 +83,7 @@ footer {
 	padding: 0.25em 0;
 	text-align: center;
 }
+
+*[lang="en-US"] {
+	font-family: Arial, sans-serif, sans-serif;
+}
