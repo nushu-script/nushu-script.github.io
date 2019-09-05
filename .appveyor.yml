@@ -26,7 +26,7 @@ after_build:
 - git config --global user.name "sgalal"
 - git checkout master
 - rm -rf *
-- mv -f ../site/* .
+- mv -f ../build/* .
 - git add .
 - |-
   if [ -n "$(git status --porcelain)" ]; then
