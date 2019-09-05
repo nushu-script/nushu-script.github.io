@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: "TH-Tshyn-P1-Nushu";
+	src: url("TH-Tshyn-P1-Nushu.woff");
+}
+
 body {
 	margin: 0;
 	font-family: sans-serif;
@@ -101,7 +106,7 @@ header > p, footer > p {
 }
 
 .nushu {
-	font-family: sans-serif, TH-Tshyn-P1, sans-serif;
+	font-family: sans-serif, TH-Tshyn-P1, "TH-Tshyn-P1-Nushu", sans-serif;
 	font-size: 25px;
 }
 
