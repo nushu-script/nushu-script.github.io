@@ -45,6 +45,9 @@ function convert() {
     xs_choice = xs.map(function(x) {return 0;});
     document.getElementById("selectContext").innerHTML = selectContextHTML;
     showText();
+
+    // Select2
+    $("select").select2({ minimumResultsForSearch: Infinity });
 }
 
 function mergeResult(xsi, i) {
