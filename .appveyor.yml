@@ -9,13 +9,15 @@ environment:
     secure: 1Ep5ZXTk0f1AbqY1xVTGnHWDEEBnSm2RnlExqhH0AsAPS1cRYl9aJRHDonSioUOD
 
 before_build:
-- wget -P ~ https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-1-amd64.deb
-- sudo dpkg -i ~/pandoc-2.7.2-1-amd64.deb
+- wget -P ~ https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-1-amd64.deb
+- sudo dpkg -i ~/pandoc-2.7.3-1-amd64.deb
 
 build_script:
-- sh .build.sh
-- mkdir ../site
-- mv -f * ../site
+- mkdir -p ../build
+- pandoc -s index/zh-Hans.md -o ../build/index.html -c index.files/index.css
+- pandoc -s index/zh-Hant.md -o ../build/index-zh-Hant.html -c index.files/index.css
+- pandoc -s index/en.md -o ../build/index-en.html -c index.files/index.css
+- cp -ruv index.files meta/* nsbzz unicode style.css ../build
 
 after_build:
 - git config --global credential.helper store

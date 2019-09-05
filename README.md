@@ -1,6 +1,6 @@
 # Online _Nushu_ Dictionary [![Build status](https://ci.appveyor.com/api/projects/status/08un6ojbgni1433o?svg=true)](https://ci.appveyor.com/project/chromezh/nushu-script-github-io)
 
-[_Nushu_](https://en.wikipedia.org/wiki/N%C3%BCshu) (女书) is a mysterious syllabic script used exclusively among woman in Jiangyong County of Southern China.
+[_Nushu_](https://en.wikipedia.org/wiki/N%C3%BCshu) (女书) is a mysterious script used exclusively among women in Jiangyong County of Southern China
 
 ## The Website
 
