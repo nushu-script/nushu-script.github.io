@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans">
+<html lang="zh-Hans">
 <head>
   <title>《女书规范字书法字帖》转换器（图片版）</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -16,23 +16,26 @@
   </script>
 
   <script src="converter.js"></script>
-  <link rel="stylesheet" href="../style.css" type="text/css"/>
+  <link rel="stylesheet" href="../style.css"/>
 </head>
 <body>
   <h1>《女书规范字书法字帖》转换器（图片版）</h1>
+
   <div class="center">
     <header>
-      <p><a href="..">前往女书字典首页</a> - <a href="text.html">文字版</a></p>
+      <p><a href="..">前往女书字典首页</a> - <a href=".">文字版</a></p>
       <p>同一个汉字可能对应多个女书字</p>
     </header>
 
-    <textarea id="textBox" rows="4"></textarea>
-    <p><button onclick="convert()">转换</button></p>
-    <div id="selectContext"></div>
+    <form onsubmit="handleConvert(); return false">
+      <p><textarea id="boxInput" name="boxInput" rows="3"></textarea></p>
+      <p><input type="submit" value="转换"/></p>
+      <div id="boxSelect" name="boxSelect" class="nushu" tabindex="0"></div>
+    </form>
 
     <footer>
-      <p>词典版本：20180528。欢迎 <a href="https://github.com/nushu-script/nushu-script.github.io/issues">反馈问题</a></p>
-      <p>参考资料：赵丽明、徐焰<a href="https://book.douban.com/subject/27045237/">《女书规范字书法字帖》</a>，<a href="http://www.thurcacca.org/booksearch.html">传奇女书</a></p>
+      <p>词典版本：20180528。欢迎 <a href="https://github.com/nushu-script/nushu-script.github.io/issues">反馈问题</a>，或 <a href="https://sgal.self.sugina.cc/alipay.jpg">为作者捐款</a></p>
+      <p>参考资料：赵丽明、徐焰 <a href="https://book.douban.com/subject/27045237/">《女书规范字书法字帖》</a>，<a href="http://www.thurcacca.org/booksearch.html">传奇女书</a></p>
       <p>Copyright &copy; 2018-2019 <a href="https://github.com/nushu-script/">The Nushu Coder's Group on GitHub</a></p>
     </footer>
   </div>

@@ -1,9 +1,9 @@
 "use strict";
 
 function HTMLEncode(input) {
-    var x = document.createElement('p');
-    x.innerText = input;
-    return x.innerHTML;
+	var x = document.createElement('p');
+	x.innerText = input;
+	return x.innerHTML;
 }
 
 var dictmap;
@@ -11,57 +11,49 @@ var dictmap;
 fetch('https://nushuscript.org/unicode_nushu/map.json')
 .then(function(response) { return response.json(); })
 .then(function(res) {
-    dictmap = res;
+	dictmap = res;
 });
 
-var xs;
-var xs_choice;
+var storage;
 
-function convert() {
-    xs = document.getElementById("textBox").value.split("").map(function(x) {
-        var s = dictmap[x];
-        if (!s)
-            return x;
-        else
-            return s.map(function(n) { return String.fromCodePoint(parseInt(n)); });
-    });
-    var selectContextHTML = "";
-    for (var i = 0; i < xs.length; i++) {
-        var ys = xs[i];
-        if (ys) {
-            if (!(ys instanceof Array)) {
-                selectContextHTML += HTMLEncode(ys);
-            } else if (ys.length == 1) {
-                selectContextHTML += ys[0];
-            } else {
-                selectContextHTML += "<select id=\"NC_" + i + "\" class=\"nushu selectContextChoice\" onchange=\"mergeResult(this.id, this.selectedIndex)\" size=\"1\">";
-                for (var j = 0; j < ys.length; j++) {
-                    selectContextHTML += "<option class=\"nushu selectContextChoice\">" + ys[j] + "</option>";
-                }
-                selectContextHTML += "</select>";
-            }
-        }
-    }
-    xs_choice = xs.map(function(x) {return 0;});
-    document.getElementById("selectContext").innerHTML = selectContextHTML;
-    showText();
+function handleConvert() {
+	// Store to global variable
+	storage = boxInput.value.split('').map(function(x) {
+		var s = dictmap[x];
+		if (!s) {
+			return x;
+		} else {
+			var s2 = s.map(function(n) { return String.fromCodePoint(parseInt(n)); });
+			if (s2.length == 1)
+				return s2[0];
+			else
+				return { value: s2, chosen: 0 };
+		}
+	});
 
-    // Select2
-    $("select").select2({ minimumResultsForSearch: Infinity });
+	// Build HTML
+	boxSelect.innerHTML = Array.from(storage, function(x, i) {
+		if (Object.prototype.toString.call(x) === '[object String]')
+			return HTMLEncode(x);
+		else
+			return '<select onchange="storage[' + i + '].chosen = this.selectedIndex; pushResult()">'
+				+ x.value.map(function(y) {
+					return '<option>' + y + '</option>'
+				}).join('')
+				+ '</select>';
+	}).join('');
+
+	// Select2
+	$('select').select2({ minimumResultsForSearch: Infinity, width: '1.5em' });
+
+	pushResult();
 }
 
-function mergeResult(xsi, i) {
-    xs_choice[xsi.substring(3)] = i;
-    showText();
-}
-
-function showText() {
-    var ret = "";
-    for (var i = 0; i < xs.length; i++) {
-        var s = xs[i];
-        if (s) {
-            ret += s[xs_choice[i]];
-        }
-    }
-    document.getElementById("output").value = ret;
+function pushResult() {
+	boxOutput.value = storage.map(function(x) {
+		if (Object.prototype.toString.call(x) === '[object String]')
+			return x;
+		else
+			return x.value[x.chosen];
+	}).join('');
 }

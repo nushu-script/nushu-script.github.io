@@ -12,6 +12,7 @@ p, ul { line-height: 1.75; }
 body {
 	margin: 0 auto;
 	max-width: 42em;
+	text-align: justify;
 }
 
 @media screen and (max-width: 1152px) {

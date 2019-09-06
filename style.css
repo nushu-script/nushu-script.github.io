@@ -4,7 +4,7 @@
 
 @font-face {
 	font-family: "TH-Tshyn-P1-Nushu";
-	src: url("unicode/TH-Tshyn-P1-Nushu.woff");
+	src: url("https://nushuscript.org/unicode_nushu/TH-Tshyn-P1-Nushu.woff");
 }
 
 body {
@@ -36,7 +36,7 @@ h1 {
 
 body > div {
 	margin: 1em auto;
-	max-width: 800px;
+	max-width: 50em;
 	padding: 0 1em;
 }
 
@@ -52,52 +52,92 @@ a:hover {
 	color: deeppink;
 }
 
-button {
-	background-color: #2091ff;
-	border: 1px solid dodgerblue;
-	color: white;
-	font-size: 16px;
-	padding: 0.375em 0.875em;
-	transition-duration: 0.4s;
-	-webkit-transition-duration: 0.4s;
-}
-
-button:hover {
-	background-color: #79bdff;
-}
-
 div > p > img {
 	max-width: 100%;
 }
 
-footer {
-	font-size: 95%;
-	padding: 0.5em 0;
+header, footer {
+	font-size: 90%;
+	padding: 0.25em 0;
 }
 
 header > p, footer > p {
-	margin: 0.25em 0;
+	line-height: 1.5;
+	margin: 0.375em 0;
 }
 
-#textBox {
-	font-family: sans-serif;
-	resize: none;
+form textarea {
+	font-family: inherit;
 }
 
-#textBox, #selectContext, #output {
-	border: 1px solid dodgerblue;
-	padding: 0.75em 1em;
+form textarea, #boxSelect {
+	display: inline-block;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: inset 0 1px 3px #ddd;
+	box-shadow: inset 0 1px 3px #ddd;
+	border-radius: 4px;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+form textarea:focus, #boxSelect:focus {
+	outline: 0;
+	border-color: #129fea;
+}
+
+form input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+	font-family: inherit;
+	padding: .5em 1em;
+	color: rgba(0,0,0,.8);
+	border: 1px solid #999;
+	border: none transparent;
+	background-color: #e6e6e6;
+	text-decoration: none;
+	border-radius: 2px;
+	display: inline-block;
+	line-height: normal;
+	white-space: nowrap;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+form input[type="submit"]:hover {
+	background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));
+	background-image: -webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+	background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+}
+
+#boxInput, #boxSelect, #boxOutput {
+	padding: 0.75rem 1rem;
 	width: 100%;
 }
 
-#selectContext > img {
+#boxSelect {
+	min-height: 5em;
+	text-align: left;
+}
+
+#boxSelect > img {
 	vertical-align: text-top;
 	height: 158px;
 	width: 44px;
 }
 
-#selectContext, #output {
-	min-height: 300px;
+#boxSelect + p {
+	margin: 0;
+}
+
+#boxOutput {
 	text-align: left;
 }
 
@@ -107,13 +147,12 @@ header > p, footer > p {
 
 .nushu {
 	font-family: sans-serif, TH-Tshyn-P1, "TH-Tshyn-P1-Nushu", sans-serif;
-	font-size: 25px;
+	font-size: 200%;
+	font-size-adjust: 0.38;
+	letter-spacing: 0.125em;
 }
 
-.selectContextChoice {
-	color: red;
-}
-
-.select2-container {
+.select2-results__option {
 	font-family: sans-serif, TH-Tshyn-P1, "TH-Tshyn-P1-Nushu", sans-serif;
+	font-size: 125%;
 }
