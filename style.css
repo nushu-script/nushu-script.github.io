@@ -113,3 +113,7 @@ header > p, footer > p {
 .selectContextChoice {
 	color: red;
 }
+
+.select2-container {
+	font-family: sans-serif, TH-Tshyn-P1, "TH-Tshyn-P1-Nushu", sans-serif;
+}
