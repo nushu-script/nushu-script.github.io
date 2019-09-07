@@ -32,6 +32,7 @@ header-includes: |-
 * [《女書標準字字典》轉換器](nsbzz/) 根據宮哲兵、唐功𬀩《女書標準字字典》製作的女書轉換器，目前支援 4200 個漢字
 * [《女書規範字書法字帖》轉換器](unicode/) 根據趙麗明、徐焰《女書規範字書法字帖》製作的女書轉換器，目前支援 1760 個漢字
 * [Unicode 女書一覽表](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv) Unicode 中全部 396 個女書字元與漢字的對應關係
+* [Unicode 女書輸入法](https://github.com/nushu-script/rime-unicode_nushu) 使用江永方言拼音與國語拼音兩種方式輸入女書
 
 ## 介紹
 

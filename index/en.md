@@ -11,7 +11,7 @@ keywords:
 - Nushu list
 - Nushu IME
 - Unicode Nushu
-description: The online Nushu dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is the free and comprehensive website for searching andlearning the Nushu script.
+description: The online Nushu dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is the free and comprehensive website for searching and learning the Nushu script.
 header-includes: |-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141507626-1"></script>
@@ -32,6 +32,7 @@ header-includes: |-
 * [Converter of <span title="女书标准字字典">_Dictionary of Nushu Standard Characters_</span>](nsbzz/) The _Nushu_ converter based on the book by Gong Zhebing (宫哲兵) and Tang Gongwei (唐功𬀩), currently supports 4200 Chinese characters
 * [Converter of <span title="女书规范字书法字帖">_Calligraphy Copybook of Nushu Standard Characters_</span>](unicode/) The _Nushu_ converter based on the book by Zhao Liming (赵丽明) and Xu Yan (徐焰), currently supports 1760 Chinese characters
 * [Unicode _Nushu_ List](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv) The correspondence between all of the 396 _Nushu_ characters in Unicode and Chinese characters
+* [Unicode _Nushu_ Input Method](https://github.com/nushu-script/rime-unicode_nushu) Input _Nushu_ by romanization of Jiangyong dialect as well as Standard Chinese
 
 ## Introduction
 
