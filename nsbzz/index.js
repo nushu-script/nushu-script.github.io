@@ -15,7 +15,8 @@ fetch('https://nushuscript.org/nsbzzzd/map.json')
 });
 
 function makeImg(input) {
-	return '<img id="' + input + '" src="https://nushuscript.org/nsbzzzd/img/' + input + '.png" />';
+	var id = input[0], romanization = input[1];
+	return '<img id="' + id + '" alt="' + romanization + '" src="https://nushuscript.org/nsbzzzd/img/' + id + '.png"/>';
 }
 
 function processChar(ys) {
