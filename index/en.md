@@ -39,13 +39,16 @@ header-includes: |-
 
 ## Tools
 
-* <span title="女书标准字字典">_Dictionary of Nushu Standard Characters_</span> compiled by Gong Zhebing (宫哲兵) and Tang Gongwei (唐功𬀩), currently supports 4200 Chinese characters
-    - [Converter of _Dictionary of Nushu Standard Characters_](nsbzz/) The _Nushu_ converter based on the book _Dictionary of Nushu Standard Characters_
-    - [Online Search Tool of _Dictionary of Nushu Standard Characters_](nsbzz/dict/) An online search tool based on the book _Dictionary of Nushu Standard Characters_, which is able to search for the pronunciation of Chinese characters in Jiangyong dialect and the corresponding _Nushu_ characters
-* <span title="女书规范字书法字帖">_Calligraphy Copybook of Nushu Standard Characters_</span> compiled by Zhao Liming (赵丽明) and Xu Yan (徐焰), currently supports 1760 Chinese characters
-    - [Converter of _Calligraphy Copybook of Nushu Standard Characters_](unicode/) The _Nushu_ converter based on the book _Calligraphy Copybook of Nushu Standard Characters_
-    - [Unicode _Nushu_ List](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv) The correspondence between all of the 396 _Nushu_ characters in Unicode and Chinese characters
-    - [Unicode _Nushu_ Input Method](https://github.com/nushu-script/rime-unicode_nushu) Input _Nushu_ by romanization of Jiangyong dialect as well as Standard Chinese
+<span title="女书标准字字典">_Dictionary of Nushu Standard Characters_</span> compiled by Gong Zhebing (宫哲兵) and Tang Gongwei (唐功𬀩), currently supports 4200 Chinese characters
+
+* [Converter of _Dictionary of Nushu Standard Characters_](nsbzz/) The _Nushu_ converter based on the book _Dictionary of Nushu Standard Characters_
+* [Online Search Tool of _Dictionary of Nushu Standard Characters_](nsbzz/dict/) An online search tool based on the book _Dictionary of Nushu Standard Characters_, which is able to search for the pronunciation of Chinese characters in Jiangyong dialect and the corresponding _Nushu_ characters
+
+<span title="女书规范字书法字帖">_Calligraphy Copybook of Nushu Standard Characters_</span> compiled by Zhao Liming (赵丽明) and Xu Yan (徐焰), currently supports 1760 Chinese characters
+
+* [Converter of _Calligraphy Copybook of Nushu Standard Characters_](unicode/) The _Nushu_ converter based on the book _Calligraphy Copybook of Nushu Standard Characters_
+* [Unicode _Nushu_ List](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv) The correspondence between all of the 396 _Nushu_ characters in Unicode and Chinese characters
+* [Unicode _Nushu_ Input Method](https://github.com/nushu-script/rime-unicode_nushu) Input _Nushu_ by romanization of Jiangyong dialect as well as Standard Chinese
 
 ## Introduction
 
