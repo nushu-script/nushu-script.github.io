@@ -22,15 +22,15 @@ header-includes: |-
 
     gtag('config', 'UA-141507626-1');
   </script>
-  <meta name="description" content="The online Nushu dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is the free and comprehensive website for searching andlearning the Nushu script." />
+  <meta name="description" content="The online Nushu dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is the free and comprehensive website for searching and learning the Nushu script." />
 ---
 
 [Simplified Chinese](./) - [Traditional Chinese](index-zh-Hant.html)
 
 ## Tools
 
-* [Converter of <span title="女书标准字字典">_Dictionary of Nushu Standard Characters_</span>](nsbzz/) The _Nushu_ converter based on the book by Gong Zhebing (宫哲兵) and Tang Gongwei (唐功𬀩), currently supports 4200 Chinese characters
-* [Converter of <span title="女书规范字书法字帖">_Calligraphy Copybook of Nushu Standard Characters_</span>](unicode/) The _Nushu_ converter based on the book by Zhao Liming (赵丽明) and Xu Yan (徐焰), currently supports 1760 Chinese characters
+* [Converter of <span title="女书标准字字典">_Dictionary of Nushu Standard Characters_</span>](nsbzz/) The _Nushu_ converter based on the book compiled by Gong Zhebing (宫哲兵) and Tang Gongwei (唐功𬀩), currently supports 4200 Chinese characters
+* [Converter of <span title="女书规范字书法字帖">_Calligraphy Copybook of Nushu Standard Characters_</span>](unicode/) The _Nushu_ converter based on the book compiled by Zhao Liming (赵丽明) and Xu Yan (徐焰), currently supports 1760 Chinese characters
 * [Unicode _Nushu_ List](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv) The correspondence between all of the 396 _Nushu_ characters in Unicode and Chinese characters
 * [Unicode _Nushu_ Input Method](https://github.com/nushu-script/rime-unicode_nushu) Input _Nushu_ by romanization of Jiangyong dialect as well as Standard Chinese
 
@@ -38,7 +38,7 @@ header-includes: |-
 
 [_Nushu_](https://en.wikipedia.org/wiki/N%C3%BCshu) (女书) is a mysterious script used exclusively among women in Jiangyong County of Southern China. It is handed down by mother to daughter among the [Han](https://en.wikipedia.org/wiki/Han_Chinese) and [Yao](https://en.wikipedia.org/wiki/Yao_people) people from generation to generation in Jiangyong County and its adjacent areas, becoming a unique cultural phenomenon in human history.
 
-_Nushu_ characters are rhomboidal in shape, slim in style and imaginative in the form. The total amount of the characters being discovered is up to two thousands, all of which contain solely four kinds of chokes -- dotted, vertical, oblique and arcuate.
+_Nushu_ characters are rhomboidal in shape, slim in style and imaginative in the form. The total amount of the characters being discovered is up to two thousands, all of which contain solely four kinds of strokes -- dotted, vertical, oblique and arcuate.
 
 Although _Nushu_ is derived from Chinese characters, there is no absolute correspondence. Being different from Chinese Characters, _Nushu_ is a [syllabic script](https://en.wikipedia.org/wiki/Syllabary), for every character of it represents either a syllable, or a group of syllables that are similar in pronunciation. Meanwhile, the characters accommodate to be curved in shape, because they are also embroidered on clothes and flower belts besides being written down.
 
