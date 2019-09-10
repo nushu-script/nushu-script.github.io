@@ -28,17 +28,21 @@ function buildIndex(dictarr) {
 	}, {});
 }
 
-function makeImg(input) {
-	var id = input[0], romanization = input[1];
+function makeImg(id, romanization) {
 	return '<img id="' + id + '" alt="' + romanization + '" src="https://nushuscript.org/nsbzzzd/img/' + id + '.png"/>';
 }
 
-function processChar(ys) {
-	return dictmap[ys] ?
-	HTMLEncode(ys) + dictmap[ys].map(makeImg).join('') :
-	HTMLEncode(ys);
-}
-
 function handleConvert() {
-	boxSelect.innerHTML = boxInput.value.split('').map(processChar).join('');
+	var res = dictmap[charInput.value];
+	if (!res) {
+		boxSelect.innerHTML = '<p>暂无数据。</p>';
+	} else {
+		boxSelect.innerHTML = res.map(function(item) {
+			var id = item[0], romanization = item[1];
+			return '<figure>'
+				+ makeImg(id, romanization)
+				+ '<figcaption>江永方言拼音：' + romanization + '</figcaption>'
+				+ '</figure>';
+		}).join('');
+	}
 }
