@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
-  <title>《女书标准字字典》转换器</title>
+  <title>《女书标准字字典》在线查询</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -27,26 +27,28 @@
   </script>
 
   <script src="index.js"></script>
-  <link rel="stylesheet" href="../style.css"/>
+  <link rel="stylesheet" href="../../style.css"/>
 </head>
 <body>
-  <h1>《女书标准字字典》转换器</h1>
+  <h1>《女书标准字字典》在线查询</h1>
 
   <div class="center">
     <header>
-      <p><a href="..">前往女书字典首页</a></p>
-      <p>同一个汉字可能对应多个女书字</p>
+      <p><a href="../../">前往女书字典首页</a></p>
     </header>
 
     <form onsubmit="handleConvert(); return false">
-      <p><textarea id="boxInput" name="boxInput" rows="3"></textarea></p>
-      <p><input type="submit" value="转换"/></p>
-      <div id="boxSelect" name="boxSelect" class="nushu" tabindex="0"></div>
+      <p>
+        <input type="text" id="charInput" name="charInput" pattern="[\u4E00-\u9FFF\u3400-\u4DFF\uF900-\uFAFF]" placeholder="单个汉字" required />
+        <input type="submit" value="查询"/>
+      </p>
+      <div id="boxSelect" name="boxSelect" tabindex="0" style="text-align: center;"></div>
     </form>
 
     <footer>
       <p>词典版本：20190910。欢迎 <a href="https://github.com/nushu-script/nsbzzzd/issues">反馈问题</a>，或 <a href="https://sgal.self.sugina.cc/alipay.jpg">为作者捐款</a></p>
       <p>根据宫哲兵、唐功𬀩《女书标准字字典》制作</p>
+      <p>江永方言拼音采用江永城关土话的发音</p>
       <p>Copyright &copy; 2018-2019 <a href="https://github.com/nushu-script/">The Nushu Coder's Group on GitHub</a></p>
     </footer>
   </div>

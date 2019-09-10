@@ -39,10 +39,13 @@ header-includes: |-
 
 ## 工具
 
-* [《女书标准字字典》转换器](nsbzz/) 根据宫哲兵、唐功𬀩《女书标准字字典》制作的女书转换器，目前支持 4200 个汉字
-* [《女书规范字书法字帖》转换器](unicode/) 根据赵丽明、徐焰《女书规范字书法字帖》制作的女书转换器，目前支持 1760 个汉字
-* [Unicode 女书一览表](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv) Unicode 中全部 396 个女书字符与汉字的对应关系
-* [Unicode 女书输入法](https://github.com/nushu-script/rime-unicode_nushu) 使用江永方言拼音与汉语拼音两种方式输入女书
+* 宫哲兵、唐功𬀩编纂的《女书标准字字典》，目前支持 4200 个汉字
+    - [《女书标准字字典》转换器](nsbzz/) 根据《女书标准字字典》制作的女书转换器
+    - [《女书标准字字典》在线查询](nsbzz/dict/) 根据《女书标准字字典》制作的在线查询工具，可查汉字的江永方言发音及对应女书字
+* 赵丽明、徐焰编纂的《女书规范字书法字帖》，目前支持 1760 个汉字，是当前的 Unicode 标准
+    - [《女书规范字书法字帖》转换器](unicode/) 根据《女书规范字书法字帖》制作的女书转换器
+    - [Unicode 女书一览表](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv) Unicode 中全部 396 个女书字符与汉字的对应关系
+    - [Unicode 女书输入法](https://github.com/nushu-script/rime-unicode_nushu) 使用江永方言拼音与汉语拼音两种方式输入女书
 
 ## 介绍
 
