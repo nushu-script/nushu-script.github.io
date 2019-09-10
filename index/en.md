@@ -22,6 +22,16 @@ header-includes: |-
 
     gtag('config', 'UA-141507626-1');
   </script>
+  <!-- Baidu analytics -->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dcbaf5b7a829c56b9d361330ffb0a26e";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
   <meta name="description" content="The online Nushu dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is the free and comprehensive website for searching and learning the Nushu script." />
 ---
 

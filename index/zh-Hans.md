@@ -22,6 +22,16 @@ header-includes: |-
 
     gtag('config', 'UA-141507626-1');
   </script>
+  <!-- Baidu analytics -->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dcbaf5b7a829c56b9d361330ffb0a26e";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
   <meta name="description" content="在线女书字典是开源项目，包括女书转换器、女书一览表和女书输入法，是免费、综合、全面的女书查询和学习网站。" />
 ---
 
