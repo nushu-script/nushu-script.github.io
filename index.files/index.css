@@ -61,11 +61,6 @@ ul > li > a {
 	font-weight: bold;
 }
 
-span[title] {
-	text-decoration-line: underline;
-	text-decoration-style: dashed;
-}
-
 figure {
 	text-align: center;
 }

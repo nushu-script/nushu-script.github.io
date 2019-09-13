@@ -11,7 +11,7 @@ keywords:
 - 女书一览表
 - 女书输入法
 - Unicode 女书
-description: 在线女书字典是开源项目，包括女书转换器、女书一览表和女书输入法，是免费、综合、全面的女书查询和学习网站。
+description: 在线女书字典是开源项目，包括女书转换器、女书一览表和女书输入法，是综合、全面的女书查询网站。
 header-includes: |-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141507626-1"></script>
@@ -32,7 +32,7 @@ header-includes: |-
       s.parentNode.insertBefore(hm, s);
     })();
   </script>
-  <meta name="description" content="在线女书字典是开源项目，包括女书转换器、女书一览表和女书输入法，是免费、综合、全面的女书查询和学习网站。" />
+  <meta name="description" content="在线女书字典是开源项目，包括女书转换器、女书一览表和女书输入法，是综合、全面的女书查询网站。" />
 ---
 
 [English Version](index-en.html){lang=en-US} - [繁體中文](index-zh-Hant.html){lang=zh-Hant}
@@ -60,9 +60,11 @@ header-includes: |-
 
 关于女书文字的记载，至今最早能见到的是太平天国（清朝咸丰年间）发行的雕母钱。该钱背面用女书字符铸印有「天下妇女」、「姊妹一家」字样。
 
+女书采用当地方言吟诵或咏唱。女书作品书写在精制布面手写本（婚嫁礼物）、扇面、布帕、纸片上，分别叫做「三朝书」、「歌扇」、「帕书」、「纸文」。有的绣在帕子上，叫「绣字」。当地妇女有唱歌堂的习惯，常常聚在一起，一边做女红，一边唱读、传授女书。妇女们唱习女书的活动被称作「读纸」、「读扇」、「读帕」，形成一种别具特色的女书文化。
+
 1982 年，武汉大学宫哲兵教授在湖南省江永县发现了女书。发现女书的消息公布后，引起全世界轰动，海内外专家学者纷纷深入江永考察、学习、发掘。近年来，永州市积极实施抢救和保护女书文化工程，通过兴建女书文化村，建立女书博物馆，组织开发女书工艺品，发展女书文化产业，使女书文化薪火相传，发扬光大。《ISO/UCS 女书编码提案》、《女书用字比较》等文件由清华大学抢救女书 SRT 小组同学制作，而他们亦是向相关机构提交编码提案的代表。
 
-女书采用当地方言吟诵或咏唱。女书作品书写在精制布面手写本（婚嫁礼物）、扇面、布帕、纸片上，分别叫做「三朝书」、「歌扇」、「帕书」、「纸文」。有的绣在帕子上，叫「绣字」。当地妇女有唱歌堂的习惯，常常聚在一起，一边做女红，一边唱读、传授女书。妇女们唱习女书的活动被称作「读纸」、「读扇」、「读帕」，形成一种别具特色的女书文化。
+在线女书字典是由 GitHub 女书程序设计组制作的开源项目，包括女书转换器、女书一览表和女书输入法，是综合、全面的女书查询网站。
 
 ## 画廊
 
@@ -75,5 +77,5 @@ header-includes: |-
 在线女书字典是 [开源项目](https://github.com/nushu-script/)，欢迎为在线女书字典贡献力量，或 [为作者捐款](https://sgal.self.sugina.cc/alipay.jpg)。
 
 <footer lang="en-US">
-<p>&copy; 2018-2019 [The Nushu Coder's Group on GitHub](https://github.com/nushu-script/)</p>
+<p>&copy; 2018-2019 [GitHub 女书程序设计组](https://github.com/nushu-script/)</p>
 </footer>
