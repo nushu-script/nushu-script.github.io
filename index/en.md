@@ -6,12 +6,12 @@ keywords:
 - Dictionary
 - Nushu script
 - Nushu dictionary
-- online Nushu dictionary
+- Online Nushu Dictionary
 - Nushu converter
 - Nushu list
 - Nushu IME
 - Unicode Nushu
-description: The online Nushu dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is a comprehensive website for Nushu script.
+description: The Online Nushu Dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is a comprehensive website for Nushu script.
 header-includes: |-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141507626-1"></script>
@@ -32,7 +32,7 @@ header-includes: |-
       s.parentNode.insertBefore(hm, s);
     })();
   </script>
-  <meta name="description" content="The online Nushu dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is a comprehensive website for Nushu script." />
+  <meta name="description" content="The Online Nushu Dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is a comprehensive website for Nushu script." />
 ---
 
 [Simplified Chinese](./) - [Traditional Chinese](index-zh-Hant.html)
@@ -64,7 +64,7 @@ _Nushu_ is used to record the local dialect. It could be written on cotton books
 
 In 1982, Professor Gong Zhebing (宫哲兵) from Wuhan University discovered _Nushu_ in Jiangyong County, Hunan Province. The discovery caused a sensation throughout the world. Experts and scholars at home and abroad leave for Jiangyong to do investigation, learning and discovery. In recent years, projects for rescuing and protecting the _Nushu_ culture are being actively carried out in Yongzhou City. People carry forward and promote the culture by building _Nushu_ villages and _Nushu_ museums, making _Nushu_ craftsmanship and developing _Nushu_ culture industry. [_Proposal for encoding Nüshu in the SMP of the UCS_](https://unicode.org/wg2/docs/n3340.pdf), [_Comparison of the characters used to write Nüshu_](https://books.google.com/books?id=S1ZmGQAACAAJ) (女书用字比较) and several other documents are made by a group of student from Tsinghua University. They are also the representatives to submit the encoding proposal.
 
-The online _Nushu_ dictionary is an open-source project maintained by the _Nushu_ Coder's Group on GitHub, containing the _Nushu_ converter, _Nushu_ list and _Nushu_ IME. It is a comprehensive website for the _Nushu_ script.
+The Online _Nushu_ Dictionary is an open-source project maintained by the _Nushu_ Coder's Group on GitHub, containing the _Nushu_ converter, _Nushu_ list and _Nushu_ IME. It is a comprehensive website for the _Nushu_ script.
 
 ## Gallery
 
