@@ -80,6 +80,6 @@ footer {
 	text-align: center;
 }
 
-*[lang="en-US"] {
+:lang(en) {
 	font-family: Arial, sans-serif, sans-serif;
 }
