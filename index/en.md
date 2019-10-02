@@ -74,7 +74,7 @@ The Online _Nushu_ Dictionary is an open-source project maintained by the _Nushu
 
 ## Maintenance
 
-Online _Nushu_ Dictionary is an [open-source project](https://github.com/nushu-script/), your contributions are cordially welcomed! Or you can [buy the authors a cup of coffee](https://sgal.self.sugina.cc/alipay.jpg).
+Online _Nushu_ Dictionary is an [open-source project](https://github.com/nushu-script/), your contributions are cordially welcomed!
 
 <footer lang="en-US">
 <p>&copy; 2018-2019 [The _Nushu_ Coder's Group on GitHub](https://github.com/nushu-script/)</p>

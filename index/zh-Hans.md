@@ -74,7 +74,7 @@ header-includes: |-
 
 ## 维护
 
-在线女书字典是 [开源项目](https://github.com/nushu-script/)，欢迎为在线女书字典贡献力量，或 [为作者捐款](https://sgal.self.sugina.cc/alipay.jpg)。
+在线女书字典是 [开源项目](https://github.com/nushu-script/)，欢迎为在线女书字典贡献力量。
 
 <footer lang="en-US">
 <p>&copy; 2018-2019 [GitHub 女书程序设计组](https://github.com/nushu-script/)</p>
