@@ -13,15 +13,6 @@ keywords:
 - Unicode 女书
 description: 在线女书字典是开源项目，包括女书转换器、女书一览表和女书输入法，是综合、全面的女书查询网站。
 header-includes: |-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141507626-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-141507626-1');
-  </script>
   <!-- Baidu analytics -->
   <script>
     var _hmt = _hmt || [];

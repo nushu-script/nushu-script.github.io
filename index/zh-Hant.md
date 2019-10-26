@@ -13,15 +13,6 @@ keywords:
 - Unicode 女書
 description: 線上女書字典是開源專案，包括女書轉換器、女書一覽表和女書輸入法，是綜合、全面的女書查詢網站。
 header-includes: |-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141507626-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-141507626-1');
-  </script>
   <!-- Baidu analytics -->
   <script>
     var _hmt = _hmt || [];

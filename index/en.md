@@ -13,15 +13,6 @@ keywords:
 - Unicode Nushu
 description: The Online Nushu Dictionary is an open-source project, containing the Nushu converter, Nushu List and Nushu IME. It is a comprehensive website for Nushu script.
 header-includes: |-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141507626-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-141507626-1');
-  </script>
   <!-- Baidu analytics -->
   <script>
     var _hmt = _hmt || [];
