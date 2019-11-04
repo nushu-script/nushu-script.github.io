@@ -1,6 +1,7 @@
 ---
 title: 在线女书字典
 lang: zh-Hans
+dir: ltr
 keywords:
 - 女书
 - 字典
@@ -39,7 +40,7 @@ header-includes: |-
 
 * [《女书规范字书法字帖》转换器](unicode/) 根据《女书规范字书法字帖》制作的女书转换器
 * [Unicode 女书一览表](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv) Unicode 中全部 396 个女书字符与汉字的对应关系
-* [Unicode 女书输入法](https://github.com/nushu-script/rime-unicode_nushu) 使用江永方言拼音与汉语拼音两种方式输入女书
+* [Unicode 女书输入法](rime-unicode_nushu/) 使用江永方言拼音与汉语拼音两种方式输入女书
 
 ## 介绍
 

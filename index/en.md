@@ -1,6 +1,7 @@
 ---
 title: Online _Nushu_ Dictionary
 lang: en
+dir: ltr
 keywords:
 - Nushu
 - Dictionary
@@ -39,7 +40,7 @@ _Calligraphy Copybook of Nushu Standard Characters_ (女书规范字书法字帖
 
 * [Converter of _Calligraphy Copybook of Nushu Standard Characters_](unicode/) The _Nushu_ converter based on the book _Calligraphy Copybook of Nushu Standard Characters_
 * [Unicode _Nushu_ List](https://github.com/nushu-script/unicode_nushu/blob/master/data.csv) The correspondence between all of the 396 _Nushu_ characters in Unicode and Chinese characters
-* [Unicode _Nushu_ Input Method](https://github.com/nushu-script/rime-unicode_nushu) Input _Nushu_ by romanization of Jiangyong dialect as well as Standard Chinese
+* [Unicode _Nushu_ Input Method](rime-unicode_nushu/) Input _Nushu_ by romanization of Jiangyong dialect as well as Standard Chinese
 
 ## Introduction
 
