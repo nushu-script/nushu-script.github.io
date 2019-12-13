@@ -17,7 +17,7 @@ build_script:
 - pandoc -s index/zh-Hans.md -o ../build/index.html -c index.files/index.css
 - pandoc -s index/zh-Hant.md -o ../build/index-zh-Hant.html -c index.files/index.css
 - pandoc -s index/en.md -o ../build/index-en.html -c index.files/index.css
-- cp -ruv index.files meta/* nsbzz unicode style.css ../build
+- cp -ruv index.files meta/* nsbzz unicode ../build
 
 after_build:
 - git config --global credential.helper store
