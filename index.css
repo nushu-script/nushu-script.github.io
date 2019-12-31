@@ -1,0 +1,87 @@
+@font-face {
+	font-family: 'Unicode Nushu';
+	src: local('Unicode Nushu'),
+		url(https://nushuscript.org/fonts/Uni1B170Nushu.woff2) format("woff2"),
+		url(https://nushuscript.org/fonts/Uni1B170Nushu.woff) format("woff"),
+		url(https://nushuscript.org/fonts/Uni1B170Nushu.ttf) format("truetype");
+	unicode-range: U+16FE1, U+1B170-1B2FB;
+}
+
+:lang(zh-Nshu) {
+	font-family: 'Unicode Nushu', sans-serif;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: dodgerblue;
+}
+
+a:hover {
+	color: deeppink;
+}
+
+h1.title {
+	/* Position */
+	width: 100%;
+	/* Content */
+	background-color: #159957;
+	background-image: linear-gradient(120deg, #155799, #159957);
+	/* Box */
+	border-bottom: 2px solid grey;
+	box-shadow: 0 1px 5px #aaa;
+	/* Text */
+	color: snow;
+	font-size: 275%;
+	margin: 0;
+	padding: 1.5em 0;
+	text-align: center;
+	text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+@media screen and (max-width: 1152px) {
+	h1.title {
+		font-size: 200%;
+	}
+}
+
+div.content {
+	margin: 2em auto;
+	max-width: 50em;
+	padding: 0 1em;
+}
+
+p, ul {
+	line-height: 1.75;
+	text-align: justify;
+}
+
+ul > li > a {
+	font-weight: bold;
+}
+
+figure {
+	text-align: center;
+}
+
+figure img {
+	max-width: 100%;
+}
+
+figure figcaption {
+	font-weight: bold;
+	padding: 0.7em 0;
+}
+
+footer p {
+	font-size: 90%;
+	padding: 8px 0;
+	text-align: center;
+}
