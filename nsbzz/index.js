@@ -2,15 +2,31 @@
 
 var dictmap;
 
-fetch('https://nushuscript.org/unicode_nushu/map.json')
+fetch('https://nushuscript.org/nsbzzzd/table.json')
 .then(function(response) { return response.json(); })
 .then(function(res) {
-	dictmap = res;
+	dictmap = buildIndex(res);
 });
 
-function createImg(res) {
+function buildIndex(dictarr) {
+	return dictarr.reduce(function(obj, x) {
+		var id = x[0], romanization = x[1], chars = x[2];
+		for (var i = 0, n = chars.length; i < n; i++) {
+			var oldVal = obj[chars[i]];
+			if (!oldVal)
+				obj[chars[i]] = [[id, romanization]];
+			else
+				obj[chars[i]].push([id, romanization]);
+		}
+		return obj;
+	}, {});
+}
+
+function createImg(input) {
+	var id = input[0], romanization = input[1];
 	var img = document.createElement('img');
-	img.src = 'https://nushuscript.org/unicode_nushu/glyph/' + res + '.jpg';
+	img.src = 'https://nushuscript.org/nsbzzzd/img/' + id + '.png';
+	img.alt = romanization;
 	return img;
 }
 

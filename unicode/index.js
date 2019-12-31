@@ -21,11 +21,9 @@ function handleConvert() {
 	document.getElementById('outputArea').innerHTML = '';
 
 	document.getElementById('inputArea').value.split('').map(function(ch) {
+		document.getElementById('outputArea').appendChild(document.createTextNode(ch));
 		var ress = dictmap[ch];
-		if (!ress) {
-			document.getElementById('outputArea').appendChild(document.createTextNode(ch));
-		} else {
-			document.getElementById('outputArea').appendChild(document.createTextNode(ch));
+		if (ress) {
 			document.getElementById('outputArea').appendChild(makeSingleOrMultipleEntry(ress));
 		}
 	});
