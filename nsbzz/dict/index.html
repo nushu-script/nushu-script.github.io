@@ -27,10 +27,13 @@
     <p><a href="/">前往女书字典首页</a></p>
   </header>
 
-  <p class="center">
-    <input type="text" id="inputArea" pattern="[\u4E00-\u9FFF\u3400-\u4DFF\uF900-\uFAFF]" placeholder="单个汉字" required />
-    <input type="button" value="查询" onclick="handleConvert()"/>
-  </p>
+  <form onsubmit="handleConvert(); return false">
+    <p class="center">
+      <input type="text" id="inputArea" pattern="[\u4E00-\u9FFF\u3400-\u4DFF\uF900-\uFAFF]" placeholder="单个汉字" required />
+      <input type="submit" value="查询"/>
+    </p>
+  </form>
+
   <div tabindex="0" class="divArea" id="outputArea"></div>
 </div>
 
