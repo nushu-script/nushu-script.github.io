@@ -28,8 +28,11 @@
     <p>同一个汉字可能对应多个女书字</p>
   </header>
 
-  <p><textarea class="inputArea" id="inputArea" rows="3"></textarea></p>
-  <p class="center"><input type="button" value="转换" onclick="handleConvert()"/></p>
+  <form onsubmit="handleConvert(); return false">
+    <p><textarea class="inputArea" id="inputArea" rows="3" required></textarea></p>
+    <p class="center"><input type="submit" value="转换"/></p>
+  </form>
+
   <div contenteditable="true" tabindex="0" class="divArea" id="outputArea"></div>
 </div>
 
