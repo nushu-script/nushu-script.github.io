@@ -135,3 +135,9 @@ input[type="button"] {
 .divArea :lang(zh-Nshu) {
 	font-size: 500%;
 }
+
+.divArea img {
+	height: 158px;
+	vertical-align: text-bottom;
+	width: 44px;
+}
