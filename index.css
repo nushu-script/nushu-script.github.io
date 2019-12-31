@@ -119,7 +119,7 @@ input[type="button"] {
 }
 
 /* Border */
-.inputArea, .divArea {
+input[type="text"], .inputArea, .divArea {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-shadow: inset 0 1px 3px #ddd;
@@ -128,8 +128,14 @@ input[type="button"] {
 }
 
 /* Border hover */
-.inputArea:focus, .divArea:focus {
+input[type="text"]:focus, .inputArea:focus, .divArea:focus {
 	border-color: dodgerblue;
+}
+
+/* Invalid */
+input[type="text"]:focus:invalid {
+	border-color: #e9322d;
+	color: #b94a48;
 }
 
 .divArea :lang(zh-Nshu) {
