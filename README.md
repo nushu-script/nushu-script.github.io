@@ -15,5 +15,6 @@ This repository contains the following contents:
 * Website homepage
 * Converter of _Dictionary of Nushu Standard Characters_ (《女书标准字字典》转换器), in `nsbzz` folder
 * Converter of _Calligraphy Copybook of Nushu Standard Characters_ (《女书规范字书法字帖》转换器), in `unicode` folder
+* _Nushu_ fonts, in `fonts` folder
 
 Other parts of the website are developed in independent repositories.
