@@ -64,10 +64,6 @@ p, ul {
 	line-height: 1.7;
 }
 
-ul > li > a {
-	font-weight: bold;
-}
-
 figure {
 	text-align: center;
 }
@@ -99,6 +95,10 @@ footer p, footer ul {
 
 .center {
 	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .inputArea {

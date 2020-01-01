@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN" dir="ltr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>女书网站排版指南</title>
+<link rel="stylesheet" href="/index.css"/>
+</head>
+<body>
+<header id="title-block-header">
+  <h1 class="title">女书网站排版指南</h1>
+</header>
+
+<div class="content">
+  <header>
+    <p><a href="/">前往女书字典首页</a></p>
+  </header>
+
+  <h2 id="简介">简介</h1>
+  <p>目前，女书字符已进入国际编码标准，可以在网页上以文字形式呈现。本指南的目标是指导网站制作者排版女书网页，对女书艺术品设计者也有参考价值。</p>
+
+  <h2 id="lang-标签"><code lang="en-US">lang</code> 标签</h1>
+  <p>对女书文本，HTML 的 <code lang="en-US">lang</code> 标签使用 <code lang="en-US">lang=&quot;zh-Nshu&quot;</code>。这是因为女书记录的语言为江永土话，属于汉语方言的一种，故语言标签为 <code lang="en-US">zh</code>；女书的文字代码为 <code lang="en-US">Nshu</code>。</p>
+
+  <h2 id="字体">字体</h1>
+  <p>目前可以显示女书字符的字体为 Unicode Nushu。它能正常显示 396 个女书字符和 1 个女书标点。</p>
+  <p>该字体是从 Unicode V12.1 相关文件中直接提取，版权为字体制作者所有，使用时请注意版权问题。</p>
+  <p>Unicode V12.1 相关文件：</p>
+  <ul>
+    <li><a href="https://unicode.org/charts/PDF/U1B170.pdf" target="_blank" lang="en-US">https://unicode.org/charts/PDF/U1B170.pdf</a></li>
+    <li><a href="https://unicode.org/charts/PDF/U16FE0.pdf" target="_blank" lang="en-US">https://unicode.org/charts/PDF/U16FE0.pdf</a></li>
+  </ul>
+  <p>本网站原来使用 TH-Tshyn-P1 字体，但发现该字体存在一处错误，U+1B201 与 U+1B202 两个女书字形颠倒，因此不再推荐使用。<p>
+
+  <h2 id="示例">示例</h1>
+  <iframe width="100%" height="300" src="https://jsfiddle.net/AyakaMikazuki/57t6hzva/4/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+</div>
+
+<footer>
+  <p>加入 <a target="_blank" href="https://t.me/nushuscript">Telegram</a> 上的讨论</p>
+  <p>&copy; 2018-2019 <a href="https://github.com/nushu-script/" lang="en-US">The <em>Nushu</em> Coder’s Group on GitHub</a></p>
+</footer>
+</body>
+</html>
