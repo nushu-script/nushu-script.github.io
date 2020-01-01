@@ -101,7 +101,7 @@ footer p, footer ul {
 	font-weight: bold;
 }
 
-.inputArea {
+textarea {
 	box-sizing: border-box;
 	font-family: inherit;
 	width: 100%;
@@ -124,7 +124,7 @@ input[type="button"], input[type="submit"] {
 }
 
 /* Border */
-input[type="text"], .inputArea, .divArea {
+input[type="text"], textarea, .divArea {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-shadow: inset 0 1px 3px #ddd;
@@ -132,13 +132,11 @@ input[type="text"], .inputArea, .divArea {
 	padding: 0.5em 0.6em;
 }
 
-/* Border hover */
-input[type="text"]:focus, .inputArea:focus, .divArea:focus {
+input[type="text"]:focus, textarea:focus, .divArea:focus {
 	border-color: dodgerblue;
 }
 
-/* Invalid */
-input[type="text"]:focus:invalid, .inputArea:focus:invalid {
+input[type="text"]:focus:not(:empty):invalid, textarea:focus:not(:empty):invalid {
 	border-color: #e9322d;
 	color: #b94a48;
 }
