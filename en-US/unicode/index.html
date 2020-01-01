@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Online Search Tool of Dictionary of Nushu Standard Characters</title>
+<title>Converter of Calligraphy Copybook of Nushu Standard Characters</title>
 <link rel="stylesheet" href="/index.css"/>
-<script src="index.js"></script>
+<script src="/unicode/index.js"></script>
 <!-- Baidu analytics -->
 <script>
   var _hmt = _hmt || [];
@@ -19,27 +19,26 @@
 </head>
 <body>
 <header id="title-block-header">
-  <h1 class="title">Online Search Tool of <em>Dictionary of Nushu Standard Characters</em></h1>
+  <h1 class="title">Converter of <em>Calligraphy Copybook of Nushu Standard Characters</em></h1>
 </header>
 
 <div class="content">
   <header>
-    <p><a href="/en-US/">Visit the main page</a></p>
+    <p><a href="/en-US/">Visit the main page</a> - <a href="image.html">Converter (image version)</a></p>
+    <p>One Chinese character may correspond to several <em>Nushu</em> characters</p>
   </header>
 
   <form onsubmit="handleConvert(); return false">
-    <p class="center">
-      <input type="text" id="inputArea" pattern="[\u4E00-\u9FFF\u3400-\u4DFF\uF900-\uFAFF]" placeholder="One Chinese character" required />
-      <input type="submit" value="Query"/>
-    </p>
+    <p><textarea class="inputArea" id="inputArea" rows="3" required></textarea></p>
+    <p class="center"><input type="submit" value="Convert"/></p>
   </form>
 
-  <div tabindex="0" class="divArea" id="outputArea"></div>
+  <div contenteditable="true" tabindex="0" class="divArea" id="outputArea"></div>
 </div>
 
 <footer>
   <p>Dictionary version: 20190910. Welcome to <a href="https://github.com/nushu-script/nsbzzzd/issues">report bugs</a></p>
-  <p>Based on <em>Dictionary of Nushu Standard Characters</em> compiled by Gong Zhebing and Tang Gongwei</p>
+  <p>Based on <a href="https://book.douban.com/subject/27045237/"><em>Calligraphy Copybook of Nushu Standard Characters</em></a> compiled by Zhao Liming and Xu Yan, <a href="http://www.thurcacca.org/booksearch.html">Legend of Nu Shu</a></p>
   <p lang="en-US">&copy; 2018-2019 <a href="https://github.com/nushu-script/">The <em>Nushu</em> Coder’s Group on GitHub</a></p>
 </footer>
 </body>
