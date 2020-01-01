@@ -1,6 +1,7 @@
 @font-face {
 	font-family: 'Unicode Nushu';
-	src: local('Unicode Nushu'),
+	src:
+		local('Unicode Nushu'),
 		url(/fonts/Uni1B170Nushu.woff2) format("woff2"),
 		url(/fonts/Uni1B170Nushu.woff) format("woff"),
 		url(/fonts/Uni1B170Nushu.ttf) format("truetype");
@@ -14,6 +15,7 @@
 body {
 	font-family: sans-serif;
 	margin: 0;
+	text-align: justify;
 }
 
 a {
@@ -59,8 +61,7 @@ div.content {
 }
 
 p, ul {
-	line-height: 1.75;
-	text-align: justify;
+	line-height: 1.7;
 }
 
 ul > li > a {
@@ -81,13 +82,17 @@ figure figcaption {
 }
 
 div.content header, footer {
-	font-size: 90%;
+	font-size: 85%;
 	margin: 8px 0;
 }
 
 div.content header p, footer p {
-	margin: 0.5em 0;
+	margin: 4px 0;
 	text-align: center;
+}
+
+footer p, footer ul {
+	line-height: 1.5;
 }
 
 /* Converter */
