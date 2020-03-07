@@ -1,20 +1,23 @@
 # Online Nushu Dictionary
 
-[Nushu](https://en.wikipedia.org/wiki/N%C3%BCshu) (女书) is a mysterious script used exclusively among women in Jiangyong County of Southern China
+[Nushu](https://en.wikipedia.org/wiki/N%C3%BCshu) (𛆁𛈬, 女书) is a mysterious script used exclusively among women in Jiangyong County of Southern China
 
 ## The Website
 
 The Online Nushu Dictionary website is published on <https://nushuscript.org/>.
 
-It is an open-source project. It is the free and comprehensive website for searching and learning the Nushu script.
+It is an open-source project, a free and comprehensive website for searching and learning the Nushu script.
 
 ## Project Structure
 
 This repository contains the following contents:
 
-* Website homepage
-* Converter of _Dictionary of Nushu Standard Characters_ (《女书标准字字典》转换器), in `nsbzz` folder
-* Converter of _Calligraphy Copybook of Nushu Standard Characters_ (《女书规范字书法字帖》转换器), in `unicode` folder
-* Nushu fonts, in `fonts` folder
+* `/`: Website homepage
+* `/fonts`: Nushu fonts
+* `/static`: Static contents of the website
+* `/nsbzz`: Converter of _Dictionary of Nushu Standard Characters_ (《女书标准字字典》转换器)
+* `/unicode`: Converter of _Calligraphy Copybook of Nushu Standard Characters_ (《女书规范字书法字帖》转换器)
+* `/typesetting`: The article _Typesetting Guide for Nushu Websites_
+* `/zh-HK`, `/en-US`: I18n versions of the web pages
 
-Other parts of the website are developed in independent repositories.
+Other parts of the website are developed in independent repositories. See the [organization homepage](https://github.com/nushu-script) for details.
