@@ -1,4 +1,4 @@
-# Online Nushu Dictionary
+# Online Nushu Dictionary [![Gitter](https://badges.gitter.im/nushu-script/community.svg)](https://gitter.im/nushu-script/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 [Nushu](https://en.wikipedia.org/wiki/N%C3%BCshu) (𛆁𛈬, 女书) is a mysterious script used exclusively among women in Jiangyong County of Southern China
 
