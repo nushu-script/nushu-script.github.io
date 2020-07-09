@@ -1,12 +1,4 @@
-@font-face {
-	font-family: 'Unicode Nushu';
-	src:
-		local('Unicode Nushu'),
-		url(/fonts/Uni1B170Nushu.woff2) format("woff2"),
-		url(/fonts/Uni1B170Nushu.woff) format("woff"),
-		url(/fonts/Uni1B170Nushu.ttf) format("truetype");
-	unicode-range: U+16FE1, U+1B170-1B2FB;
-}
+@import url('https://cdn.jsdelivr.net/gh/nushu-script/font-unicode-nushu@1.0.0/index.css');
 
 :lang(zh-Nshu) {
 	font-family: 'Unicode Nushu', sans-serif;
