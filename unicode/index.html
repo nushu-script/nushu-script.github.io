@@ -24,12 +24,21 @@
 
 <div class="content">
   <header>
-    <p><a href="/">前往女书字典首页</a> - <a href="image.html">图片版转换器</a></p>
+    <p><a href="/">前往女书字典首页</a></p>
     <p>同一个汉字可能对应多个女书字</p>
   </header>
 
   <form onsubmit="handleConvert(); return false">
     <p><textarea id="inputArea" rows="3" required></textarea></p>
+    <p class="center">
+      <label>请选择样式：
+        <select id="styleSelect">
+          <option value="nsgfzsfzt">女书规范字书法字帖</option>
+          <option value="noto-traditional-nushu">Noto Traditional Nushu</option>
+          <option value="unicode-nushu">Unicode 女书</option>
+        </select>
+      </label>
+    </p>
     <p class="center"><input type="submit" value="转换"/></p>
   </form>
 

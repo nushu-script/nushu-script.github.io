@@ -24,12 +24,21 @@
 
 <div class="content">
   <header>
-    <p><a href="/en-US/">Visit the main page</a> - <a href="image.html">Converter (image version)</a></p>
+    <p><a href="/en-US/">Visit the main page</a></p>
     <p>One Chinese character may correspond to several Nushu characters</p>
   </header>
 
   <form onsubmit="handleConvert(); return false">
     <p><textarea id="inputArea" rows="3" required></textarea></p>
+    <p class="center">
+      <label>Please select a style:
+        <select id="styleSelect">
+          <option value="nsgfzsfzt">Calligraphy Copybook of Nushu Standard Characters</option>
+          <option value="noto-traditional-nushu">Noto Traditional Nushu</option>
+          <option value="unicode-nushu">Unicode Nushu</option>
+        </select>
+      </label>
+    </p>
     <p class="center"><input type="submit" value="Convert"/></p>
   </form>
 

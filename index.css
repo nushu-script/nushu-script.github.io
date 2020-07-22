@@ -1,8 +1,8 @@
 @import url('https://cdn.jsdelivr.net/gh/nushu-script/NotoTraditionalNushu@woff-v1.0/index.css');
+@import url('https://cdn.jsdelivr.net/gh/nushu-script/font-unicode-nushu@1.0.0/index.css');
 
-:lang(zh-Nshu) {
-	font-family: 'Noto Traditional Nushu', sans-serif, sans-serif;
-}
+:lang(zh-Nshu), .noto-traditional-nushu { font-family: 'Noto Traditional Nushu', sans-serif, sans-serif; }
+.unicode-nushu { font-family: 'Unicode Nushu', serif, serif; }
 
 body {
 	font-family: sans-serif;
@@ -10,17 +10,9 @@ body {
 	text-align: justify;
 }
 
-a {
-	text-decoration: none;
-}
-
-a:link {
-	color: dodgerblue;
-}
-
-a:hover {
-	color: deeppink;
-}
+a { text-decoration: none; }
+a:link { color: dodgerblue; }
+a:hover { color: deeppink; }
 
 h1.title {
 	/* Position */
@@ -48,7 +40,7 @@ h1.title {
 
 div.content {
 	margin: 1.5em auto;
-	max-width: 50em;
+	max-width: 58em;
 	padding: 0 1em;
 }
 
@@ -70,7 +62,6 @@ figure figcaption {
 }
 
 div.content header, footer {
-	font-size: 85%;
 	margin: 8px 0;
 }
 
