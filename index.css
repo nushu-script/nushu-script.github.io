@@ -5,9 +5,8 @@
 .unicode-nushu { font-family: 'Unicode Nushu', serif, serif; }
 
 body {
-	font-family: sans-serif;
+	font-family: sans-serif, sans-serif;
 	margin: 0;
-	text-align: justify;
 }
 
 a { text-decoration: none; }
