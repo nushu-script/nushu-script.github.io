@@ -1,8 +1,10 @@
 @import url('https://cdn.jsdelivr.net/gh/nushu-script/NotoTraditionalNushu@woff-v1.0/index.css');
 @import url('https://cdn.jsdelivr.net/gh/nushu-script/font-unicode-nushu@1.0.0/index.css');
+@import url('https://cdn.jsdelivr.net/gh/nushu-script/noto-sans-nushu@woff-v1.0/index.css');
 
 :lang(zh-Nshu), .noto-traditional-nushu { font-family: 'Noto Traditional Nushu', sans-serif, sans-serif; }
 .unicode-nushu { font-family: 'Unicode Nushu', serif, serif; }
+.noto-sans-nushu { font-family: 'Noto Sans Nushu', sans-serif, sans-serif; }
 
 body {
 	font-family: sans-serif, sans-serif;
