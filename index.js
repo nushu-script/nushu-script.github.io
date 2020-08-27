@@ -15,7 +15,7 @@ var _hmt = _hmt || [];
 
 function makeMail() {
 	var _h='&#x69;&#x70;&#x74;&#x2E;&#x6F;&#x72;&#x67;';
-	var _a='&#x72;&#x74;&#x40;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x6E;&#x75;&#x73;&#x68;&#x75;&#x73;&#x63;&#x72;';
+	var _a='&#x72;&#x74;&#x40;&#x6E;&#x75;&#x73;&#x68;&#x75;&#x73;&#x63;&#x72;';
 	var _n='&#x73;&#x75;&#x70;&#x70;&#x6F;';
 	var _e=_n+_a+_h;
 	_a=document.createElement('span');
