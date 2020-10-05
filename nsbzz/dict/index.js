@@ -29,7 +29,6 @@ function createImgWithFigCaption(res) {
 
 	var img = document.createElement('img');
 	img.src = 'https://nushuscript.org/nsbzzzd/img/' + id + '.png';
-	img.alt = romanization;
 	figure.appendChild(img);
 
 	var figcaption = document.createElement('figcaption');

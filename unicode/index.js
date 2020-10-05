@@ -1,21 +1,26 @@
 'use strict';
 
-var dictmap;
+let dictmap;
 
-fetch('/unicode/map.json')
-.then(function(response) { return response.json(); })
-.then(function(res) { dictmap = res; });
+fetch('/unicode/correspond.json')
+.then((response) => response.json())
+.then((res) => void(dictmap = res));
+
+function queryDict(c) {
+	const res = dictmap[c];
+	return res == null ? null : [...res];
+}
 
 function makeEntry_nsgfzsfzt(ress) {
-	return ress.map(function(res) {
-		var img = document.createElement('img');
-		img.src = 'https://cdn.jsdelivr.net/gh/nushu-script/nushu-nsgfzsfzt@latest/' + res + '.jpg';
+	return ress.map((res) => {
+		const img = document.createElement('img');
+		img.src = 'https://cdn.jsdelivr.net/gh/nushu-script/nushu-nsgfzsfzt@20200722/' + encodeURIComponent(res) + '.jpg';
 		return img;
 	});
 }
 
 function makeEntry_ntn(ress) {
-	var span = document.createElement('span');
+	const span = document.createElement('span');
 	span.lang = 'zh-Nshu';
 	span.classList.add('noto-traditional-nushu');
 	span.innerText = ress.join('');
@@ -23,7 +28,7 @@ function makeEntry_ntn(ress) {
 }
 
 function makeEntry_un(ress) {
-	var span = document.createElement('span');
+	const span = document.createElement('span');
 	span.lang = 'zh-Nshu';
 	span.classList.add('unicode-nushu');
 	span.innerText = ress.join('');
@@ -31,7 +36,7 @@ function makeEntry_un(ress) {
 }
 
 function makeEntry_nsn(ress) {
-	var span = document.createElement('span');
+	const span = document.createElement('span');
 	span.lang = 'zh-Nshu';
 	span.classList.add('noto-sans-nushu');
 	span.innerText = ress.join('');
@@ -41,26 +46,26 @@ function makeEntry_nsn(ress) {
 function handleConvert() {
 	document.getElementById('outputArea').innerHTML = '';
 
-	var styleSelectValue = styleSelect.options[styleSelect.selectedIndex].value;
+	const styleSelectValue = styleSelect.options[styleSelect.selectedIndex].value;
 
-	document.getElementById('inputArea').value.split('').map(function(ch) {
+	[...document.getElementById('inputArea').value].map((ch) => {
 		document.getElementById('outputArea').appendChild(document.createTextNode(ch));
-		var ress = dictmap[ch];
+		const ress = queryDict(ch);
 		if (ress) {
 			switch (styleSelectValue) {
 				case 'nsgfzsfzt':
-					makeEntry_nsgfzsfzt(ress).map(function(res) {
+					makeEntry_nsgfzsfzt(ress).map((res) => {
 						document.getElementById('outputArea').appendChild(res);
 					});
 					break;
 				case 'noto-traditional-nushu':
 					document.getElementById('outputArea').appendChild(makeEntry_ntn(ress));
 					break;
-				case 'unicode-nushu':
-					document.getElementById('outputArea').appendChild(makeEntry_un(ress));
-					break;
 				case 'noto-sans-nushu':
 					document.getElementById('outputArea').appendChild(makeEntry_nsn(ress));
+					break;
+				case 'unicode-nushu':
+					document.getElementById('outputArea').appendChild(makeEntry_un(ress));
 					break;
 			}
 		}

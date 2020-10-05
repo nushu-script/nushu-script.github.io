@@ -23,8 +23,9 @@ function makeMail() {
 	return 'm'+'a'+'ilto'+':'+_a.innerText;
 }
 
-window.addEventListener('DOMContentLoaded', function() {
-	var meilbwox = document.getElementById('meilbwox');
-	if (meilbwox)
+window.addEventListener('DOMContentLoaded', () => {
+	const meilbwox = document.getElementById('meilbwox');
+	if (meilbwox != null) {
 		meilbwox.href = makeMail();
+	}
 });
