@@ -1,6 +1,6 @@
-@import url('https://cdn.jsdelivr.net/gh/nushu-script/NotoTraditionalNushu@woff-v1.0/index.css');
-@import url('https://cdn.jsdelivr.net/gh/nushu-script/font-unicode-nushu@1.0.0/index.css');
-@import url('https://cdn.jsdelivr.net/gh/nushu-script/noto-sans-nushu@woff-v1.0/index.css');
+@import url('https://nushu-script-1305783649.file.myqcloud.com/NotoTraditionalNushu/index.css');
+@import url('https://nushu-script-1305783649.file.myqcloud.com/font-unicode-nushu/index.css');
+@import url('https://nushu-script-1305783649.file.myqcloud.com/noto-sans-nushu/index.css');
 
 :lang(zh-Nshu), .noto-traditional-nushu { font-family: 'Noto Traditional Nushu', sans-serif, sans-serif; }
 .unicode-nushu { font-family: 'Unicode Nushu', serif, serif; }

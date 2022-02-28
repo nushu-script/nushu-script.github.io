@@ -14,7 +14,7 @@ function queryDict(c) {
 function makeEntry_nsgfzsfzt(ress) {
 	return ress.map((res) => {
 		const img = document.createElement('img');
-		img.src = 'https://cdn.jsdelivr.net/gh/nushu-script/nushu-nsgfzsfzt@20200722/' + encodeURIComponent(res) + '.jpg';
+		img.src = 'https://nushu-script-1305783649.file.myqcloud.com/nushu-nsgfzsfzt/' + encodeURIComponent(res) + '.jpg';
 		return img;
 	});
 }
